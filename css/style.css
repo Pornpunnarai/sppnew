@@ -20,6 +20,12 @@
     src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
 /* Homepage */
 .slide-wrapper {
     position: relative
@@ -56,7 +62,7 @@
     font-size: 22px;
     font-weight: 700;
     position: relative;
-    display: block;
+    display: block;.
     padding: 0.5em 0em 0.5em 0.5em;
     color: #ffffff;
 }

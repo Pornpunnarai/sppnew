@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>School of Public Policy</title>
+    <?php include 'head-part.php'?>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <div class="slide-wrapper">
@@ -132,34 +129,11 @@
     </div>
 
     <!-- /#Navbar -->
-    <div class="sidebar-navbar">
+    <?php include 'sidebar-navbar.php'?>
 
-        <div class="navbar-content">
-
-            <div class="navbar-logo">
-                <img src="img/logo.png" width="40%">
-            </div>
-
-            <div class="navbar-menu">
-                <ul data-menu="main" class="menu_level" tabindex="-1" role="menu" aria-label="All">
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Home</a></li>
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">About us</a></li>
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-3" href="#">PhD and Master</a></li>
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-4" href="#">Research units</a></li>
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-4" aria-owns="submenu-5" href="#">News &amp; Activity</a></li>
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-6" href="#">Service</a></li>
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-4" aria-owns="submenu-7" href="#">Event &amp; Calendar</a></li>
-                    <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-8" href="#">Contact us</a></li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<!-- Script -->
+<?php include 'script-part.html'?>
 </body>
 </html>
