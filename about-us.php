@@ -25,6 +25,49 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        .content{
+            position: absolute;
+            top: 0;
+            margin: 0 0 0 450px;
+            overflow-y: auto;
+            height: 100vh;
+        }
+
+        .products {
+            margin: 0;
+            padding: 2em;
+            text-align: center;
+        }
+
+        .product {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 5px;
+            background: #1c1d22;
+        }
+
+        .product .foodicon {
+            font-size: 4em;
+            line-height: 190px;
+            color: #3b3d4a;
+        }
+
+        .foodicon {
+            font-family: 'organicfoodicons';
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+
     </style>
 </head>
 

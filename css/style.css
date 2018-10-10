@@ -20,12 +20,6 @@
     src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-
 /* Homepage */
 .slide-wrapper {
     position: relative
@@ -62,9 +56,20 @@ body, html {
     font-size: 22px;
     font-weight: 700;
     position: relative;
-    display: block;.
+    display: block;
     padding: 0.5em 0em 0.5em 0.5em;
     color: #ffffff;
+}
+
+
+div.background-container {
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img.d-block{
@@ -76,26 +81,34 @@ img.d-block{
     width: 100%!important;
 }
 
-.carousel-caption.up-coming-event-block,.carousel-caption.last-research-block {
+
+div.row.event-last-research {
     position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+div.up-coming-event-block,div.last-research-block {
+    /*position: absolute;*/
     bottom: 0%;
     color: #fff;
     background-color: #000000a3;
     width: 322px;
     text-align: left;
-    height: 15vh;
+    height: 16.5vh;
     padding: 20px;
     padding-left: 40px;
 }
 
-.carousel-caption.up-coming-event-block {
-    right: 15%;
-    left: 69%;
+div.up-coming-event-block {
+    /*right: 15%;*/
+    /*left: 69%;*/
     border-bottom: 10px #F15C2B solid;
 }
 
-.carousel-caption.last-research-block {
-    left: 85%;
+div.last-research-block {
+    /*left: 85%;*/
+    margin-left: 5px;
     border-bottom: 10px #6DBC98 solid;
 }
 
@@ -104,7 +117,7 @@ img.d-block{
     right: 15%;
     top: 10%;
     bottom: 20%;
-    left: 26%;
+    left: 28%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -113,12 +126,12 @@ img.d-block{
 
 .carousel-caption.d-md-block.spp-block{
     top: 15%;
-    left: 24%;
+    left: 26%;
 }
 
 .carousel-caption.d-md-block.padding-top-block{
     top: 20%;
-    left: 24%;
+    left: 26%;
 }
 
 button.register {

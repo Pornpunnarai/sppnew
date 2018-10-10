@@ -3,7 +3,6 @@
 <head>
     <title>School of Public Policy</title>
     <?php include 'head-part.php'?>
-    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <div class="slide-wrapper">
@@ -47,17 +46,20 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption up-coming-event-block" style="text-align: left">
+                <div class="row event-last-research">
+                    <div class="up-coming-event-block" style="text-align: left">
                         <div style="font-size: 14px; font-family: lato-bold">Upcoming event</div>
                         <div style="font-size: 24px; font-family: lato-bold">Policy Market : <br>Energy Policy Option</div>
                         <div style="font-size: 18px; font-family: lato-light">12 September 2018</div>
+                    </div>
+
+                    <div class="last-research-block" style="text-align: left">
+                        <div style="font-size: 14px; font-family: lato-bold">Last research post</div>
+                        <div style="font-size: 24px; font-family: lato-bold">What is sustainable <br>energy policy</div>
+                        <div style="font-size: 18px; font-family: lato-light">by Dr.Oraorn</div>
+                    </div>
                 </div>
 
-                <div class="carousel-caption last-research-block" style="text-align: left">
-                    <div style="font-size: 14px; font-family: lato-bold">Last research post</div>
-                    <div style="font-size: 24px; font-family: lato-bold">What is sustainable <br>energy policy</div>
-                    <div style="font-size: 18px; font-family: lato-light">by Dr.Oraorn</div>
-                </div>
 
             </div>
 
