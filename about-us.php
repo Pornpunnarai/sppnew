@@ -109,8 +109,8 @@
 
     <div class="content-menu">
         <p>
-            <a href="#">Faculty Members</a><br>
-            <a href="#">Staff Team</a>
+            <a href="faculty-member.php">Faculty Members</a><br>
+            <a href="staff-team.php">Staff Team</a>
         </p>
     </div>
 

@@ -13,8 +13,8 @@
 
         <div class="navbar-menu">
             <ul data-menu="main" class="menu_level" tabindex="-1" role="menu" aria-label="All">
-                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Home</a></li>
-                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">About us</a></li>
+                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-1" aria-owns="submenu-1" href="index.php">Home</a></li>
+                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-2" aria-owns="submenu-2" href="about-us.php">About us</a></li>
                 <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-3" href="#">PhD and Master</a></li>
                 <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-4" href="#">Research units</a></li>
                 <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-4" aria-owns="submenu-5" href="#">News &amp; Activity</a></li>

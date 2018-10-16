@@ -78,7 +78,7 @@ div.row.event-last-research {
     right: 0%;
 }
 
-div.up-coming-event-block,div.last-research-block {
+div.up-coming-event-block,div.last-research-block,div.our-faculty-block,div.coursework-phd-block,div.coursework-master-block,div.question-block {
     /*position: absolute;*/
     bottom: 0%;
     color: #fff;
@@ -101,6 +101,29 @@ div.last-research-block {
     margin-left: 5px;
     border-bottom: 10px #6DBC98 solid;
 }
+
+div.our-faculty-block{
+    margin-left: 5px;
+    border-bottom: 10px #04B1DC solid;
+}
+div.coursework-phd-block {
+    /*left: 85%;*/
+    margin-left: 5px;
+    border-bottom: 10px #6DBC98 solid;
+}
+
+div.coursework-master-block {
+    /*left: 85%;*/
+    margin-left: 5px;
+    border-bottom: 10px #F15C2B solid;
+}
+
+div.question-block {
+    /*left: 85%;*/
+    margin-left: 5px;
+    border-bottom: 10px #04B1DC solid;
+}
+
 
 .carousel-caption.d-md-block {
     position: absolute;
@@ -170,9 +193,10 @@ i.fa.fal.fa-angle-left,i.fa.fal.fa-angle-right{
 
 div.row.content-header{
     position: absolute;
-    top: 0;
+    top: 2vh;
     right: 0;
     margin-right: 15px;
+    z-index: 2;
 }
 
 .content-name{

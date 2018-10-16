@@ -115,7 +115,7 @@
 <div class="row content-header" style="">
 
     <div class="content-name">
-        Faculty Members
+        Staff Team
     </div>
     <div class="border-content-header">
         &nbsp;&nbsp;&nbsp;

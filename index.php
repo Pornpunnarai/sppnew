@@ -121,8 +121,6 @@
                             <button class="btn register" style="height: 4vh;">Register now</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <button class="btn register" style="height: 4vh;">Download Material</button>
                         </div>
-
-
                     </div>
                 </div>
             </div>
