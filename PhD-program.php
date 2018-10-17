@@ -45,7 +45,9 @@
             overflow: auto;
             margin-left: 450px;
             color: white;
-            font-family: lato-black;
+            font-family: lato-bold;
+            margin-right: 2rem;
+            line-height: 28px;
         }
 
 
@@ -79,6 +81,9 @@
             color: white;
             z-index: 2;
         }
+        p{
+            margin-right: 1rem;
+        }
     </style>
 </head>
 
@@ -94,7 +99,7 @@
 <div class="row content-header" style="">
 
     <div class="content-name">
-        Master in Public Policy
+        PhD in Public Policy
     </div>
     <div class="border-content-header">
         &nbsp;&nbsp;&nbsp;
@@ -103,20 +108,35 @@
 </div>
 <div class="container1">
     <div id="content-detail">
-        <div class="detail" style="margin-left: 2%;    margin-top: 4%;">
-            <b><p style="font-size: 52px">Application open December 2018<br>Key Facts</p></b>
-            <ul class="a" style="font-size: 25px">
-                <li>1 Year (5 coursework + product)</li>
-                <li>Cutting edge rigorous training</li>
-                <li>International lecturers</li>
-                <li>Tuition: 330,000 Baht</li>
+        <div class="detail" style="margin-left: 2%">
+            <p style="font-size: 25px; margin-top: 2%; margin-right: 7rem;">
+                The PhD program trains new policy scholars in cutting-edge techniques for policy analysis.
+                Methods include dynamic systems modeling, content analysis using software, network analysis,
+                large-scale online surveys, and various quasi-experimental approaches. Conceptual frameworks
+                include policy systems, policy narratives, institutional analysis, social-ecological systems,
+                communication and behavioral psychology, complexity theory, and deliberative democracy.
+            </p>
+            <p style="font-size: 25px;  margin-top: 2%; margin-right: 7rem;">
+                Our PhD supervisors are highly interdisciplinary scholars who can supervise topics such as urban management,
+                e-governance, sustainability sciences, energy policies, earth system governance, economic development,
+                and ASEAN integration. All academics have degrees from world’s top-ranking universities and are very active in real policy work with governments,
+                policy think-tanks, civil society organizations, and international institutions such as the World Bank, the EU, Stockholm Environment Institute,
+                UNDP, and ASEAN
+            </p>
+            <p style="font-size: 52px; margin-top: 2%;">Key Facts</p>
+            <ul class="a" style="font-size: 25px; margin-top: 2%;">
+                <li>3-4 Years (with option of thesis only or thesis + coursework)</li>
+                <li>Expert supervisors with excellent publication records and practical experience</li>
+                <li>Intensive training in research design and methods</li>
+                <li>Low tuition costs: 480,000 Baht (ca. 13,000 USD) for thesis only option,
+                    or 720,000 Baht (ca. 22,000 USD) for thesis and coursework pathway.
+                </li>
                 <li>Scholarships available</li>
             </ul>
-            <p style="font-family: lato-regular; font-size: 12px;">
+            <p style=" margin-top: 2%;">
                 <button class="btn register" style="height: 4vh;">Register now</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="btn register" style="height: 4vh;">Download Brochure</button>
-            </p>
+                <button class="btn register" style="height: 4vh;">Download Brochure</button></p>
         </div>
     </div>
 

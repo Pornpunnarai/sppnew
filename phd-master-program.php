@@ -45,7 +45,7 @@
             overflow: auto;
             margin-left: 450px;
             color: white;
-            font-family: lato-black;
+            font-family: lato-bold;
         }
 
 
@@ -72,12 +72,16 @@
             margin-top: 45px;
         }
 
-        .back-btn{
-            position: absolute;
-            margin-left: 450px;
-            margin-top: 50px;
+        .master-phd-detail{
+            font-family: lato-regular;
+            font-size: 24px;
             color: white;
-            z-index: 2;
+            margin-left: 15%;
+        }
+
+        .btn.register, .btn.upload-brochure{
+            font-size: 18px;
+            color: white;
         }
     </style>
 </head>
@@ -87,14 +91,10 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="back-btn" href="about-us.php">
-    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
-</a>
-
 <div class="row content-header" style="">
 
     <div class="content-name">
-        Master in Public Policy
+        PhD and Master's in Public Policy
     </div>
     <div class="border-content-header">
         &nbsp;&nbsp;&nbsp;
@@ -103,20 +103,34 @@
 </div>
 <div class="container1">
     <div id="content-detail">
-        <div class="detail" style="margin-left: 2%;    margin-top: 4%;">
-            <b><p style="font-size: 52px">Application open December 2018<br>Key Facts</p></b>
-            <ul class="a" style="font-size: 25px">
-                <li>1 Year (5 coursework + product)</li>
-                <li>Cutting edge rigorous training</li>
-                <li>International lecturers</li>
-                <li>Tuition: 330,000 Baht</li>
-                <li>Scholarships available</li>
-            </ul>
-            <p style="font-family: lato-regular; font-size: 12px;">
-                <button class="btn register" style="height: 4vh;">Register now</button>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="btn register" style="height: 4vh;">Download Brochure</button>
-            </p>
+        <div class="detail" style="margin-left: 2%; margin-top: 10vh;">
+            <p style="font-size: 52px">PhD Program</p>
+
+            <div class="row master-phd-detail" style="margin-left: 15%;    margin-right: 15px;">
+                <div class="col-lg-6">
+                    The PhD in Pubilc Policy  is research  - intensive program
+                    idea for aspiring  policy experts.
+                </div>
+                <div class="col-lg-5" style="font-size: 12px;">
+                    <button class="btn register" style="height: 4vh;">Register now</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn register" style="height: 4vh;">Download Brochure</button>
+                </div>
+            </div>
+
+            <p style="font-size: 52px;    margin-top: 4%;">Master Program</p>
+            <div class="row master-phd-detail" style="margin-left: 15%;    margin-right: 15px;">
+                <div class="col-lg-6">
+                    The Master in Public Policy provides rigorous training for
+                    the next generation of decision - makers.
+                </div>
+                <div class="col-lg-5" style="font-size: 12px;">
+                    <button class="btn register" style="height: 4vh;">Register now</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn register" style="height: 4vh;">Download Brochure</button>
+                </div>
+            </div>
+
         </div>
     </div>
 

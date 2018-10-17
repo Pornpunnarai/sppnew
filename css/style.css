@@ -58,9 +58,17 @@
     position: relative;
     display: block;
     padding: 0.5em 0em 0.5em 0.5em;
-    color: #ffffff;
+    color: #D5D5D5;
 }
 
+ul.menu_level{
+    color: #D5D5D5;
+}
+
+a:hover, a:active a:focus {
+    color: white;
+    text-decoration: none;
+}
 
 img.d-block{
     position: relative;
@@ -78,7 +86,7 @@ div.row.event-last-research {
     right: 0%;
 }
 
-div.up-coming-event-block,div.last-research-block,div.our-faculty-block,div.coursework-phd-block,div.coursework-master-block,div.question-block {
+div.up-coming-event-block,div.last-research-block,div.our-faculty-block,div.coursework-phd-block,div.coursework-master-block,div.question-block,div.our-center-block,div.our-center-block2 {
     /*position: absolute;*/
     bottom: 0%;
     color: #fff;
@@ -122,6 +130,20 @@ div.question-block {
     /*left: 85%;*/
     margin-left: 5px;
     border-bottom: 10px #04B1DC solid;
+}
+
+
+div.our-center-block {
+    /*left: 85%;*/
+    margin-left: 5px;
+    border-left: 10px #F1D32B solid;
+}
+
+
+div.our-center-block2 {
+    /*left: 85%;*/
+    margin-left: 5px;
+    border-left: 10px #6A8E41 solid;
 }
 
 
