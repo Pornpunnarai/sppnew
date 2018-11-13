@@ -49,24 +49,18 @@
         .members {
             margin: 0;
             padding: 2em;
-            text-align: center;
+            padding-top: 4rem;
 
         }
 
         .member {
             display: inline-block;
             margin: 10px;
-            background: #00B3DE;
-            margin-left: 8%;
+            color: white;
+            font-family: lato-light;
+            font-size: 25px;
         }
 
-
-        .member-content{
-            width: 100%;
-            margin-top: 110%;
-            margin-left: -8%;
-            margin-right: 2rem;
-        }
 
         div.row.content-header{
             position: absolute;
@@ -108,50 +102,41 @@
 
 <a class="back-btn" href="about-us.php">
     <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
-    <p style="font-size: 65px; font-family: lato-black">Research Head Topic</p>
+    <p style="font-size: 65px; font-family: lato-black; margin-left: 30px;">Research Head Topic</p>
 </a>
 
-<div class="row content-header" style="">
-
-    <div class="content-name">
-        Faculty Members
-    </div>
-    <div class="border-content-header">
-        &nbsp;&nbsp;&nbsp;
-    </div>
-
-</div>
 <div class="container1">
     <div id="content-members">
         <div class="members">
             <div class="member">
-                <div class="member-content">
-                    <p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id massa id arcu dictum facilisis in et nunc.
-                        Pellentesque sodales rhoncus vulputate. Aenean quis purus consectetur, facilisis arcu et, scelerisque lorem.
-                        Sed gravida neque fermentum augue convallis, nec bibendum massa molestie. Phasellus tempor arcu nisl.
-                        Vestibulum pharetra volutpat vulputate. Integer vitae ex ullamcorper, varius magna molestie, ultrices odio.
-                        Maecenas lobortis nisl nisl, nec suscipit dolor hendrerit non. Ut ac tellus eu nibh aliquet rutrum.
-                        Pellentesque suscipit arcu ut mauris porta, et sagittis quam cursus. Nunc auctor suscipit risus at porttitor.
-                        Phasellus suscipit finibus mauris vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed lacinia sapien vel odio faucibus gravida. In vitae nisi sit amet quam aliquet cursus a eget nisi.</p>
-                    <p>	Integer pulvinar massa ultrices ligula sodales, eget fringilla purus maximus.
-                        Suspendisse at quam et metus consequat maximus eu ac justo. Donec dignissim congue dignissim.
-                        Duis condimentum faucibus nunc, sit amet vulputate ante malesuada ut. Maecenas hendrerit eget est ut sagittis.
-                        Pellentesque facilisis, ipsum in ornare interdum, nulla sapien dignissim metus, nec viverra augue erat id ipsum.
-                        Sed lacinia quam sem, sit amet porta diam blandit nec. Fusce at enim felis. Vestibulum lobortis libero vitae ex mattis,
-                        eu porta velit vulputate. In leo velit, vestibulum venenatis congue eu, rhoncus at odio. Vestibulum odio erat,
-                        vestibulum id semper in, maximus id sapien.</p>
-                    <p>	Donec ligula dolor, congue tempor iaculis fringilla, dictum vel massa.
-                        Proin facilisis nec tortor quis tincidunt. Vivamus euismod fringilla nunc in elementum.
-                        Cras condimentum nunc et tellus posuere, at venenatis metus accumsan. Cras viverra erat vitae odio posuere rutrum.
-                        Nullam nec felis ut nisi consectetur dapibus a at urna. Nullam volutpat tincidunt sodales.</p>
-                    <p></p>
-                </div>
+                <p style="background-color: #00B3DE; width: 100%; height: 500px;"></p>
+                <p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id massa id arcu dictum facilisis in et nunc.
+                    Pellentesque sodales rhoncus vulputate. Aenean quis purus consectetur, facilisis arcu et, scelerisque lorem.
+                    Sed gravida neque fermentum augue convallis, nec bibendum massa molestie. Phasellus tempor arcu nisl.
+                    Vestibulum pharetra volutpat vulputate. Integer vitae ex ullamcorper, varius magna molestie, ultrices odio.
+                    Maecenas lobortis nisl nisl, nec suscipit dolor hendrerit non. Ut ac tellus eu nibh aliquet rutrum.
+                    Pellentesque suscipit arcu ut mauris porta, et sagittis quam cursus. Nunc auctor suscipit risus at porttitor.
+                    Phasellus suscipit finibus mauris vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed lacinia sapien vel odio faucibus gravida. In vitae nisi sit amet quam aliquet cursus a eget nisi.</p>
+                <p>	Integer pulvinar massa ultrices ligula sodales, eget fringilla purus maximus.
+                    Suspendisse at quam et metus consequat maximus eu ac justo. Donec dignissim congue dignissim.
+                    Duis condimentum faucibus nunc, sit amet vulputate ante malesuada ut. Maecenas hendrerit eget est ut sagittis.
+                    Pellentesque facilisis, ipsum in ornare interdum, nulla sapien dignissim metus, nec viverra augue erat id ipsum.
+                    Sed lacinia quam sem, sit amet porta diam blandit nec. Fusce at enim felis. Vestibulum lobortis libero vitae ex mattis,
+                    eu porta velit vulputate. In leo velit, vestibulum venenatis congue eu, rhoncus at odio. Vestibulum odio erat,
+                    vestibulum id semper in, maximus id sapien.</p>
+                <p>	Donec ligula dolor, congue tempor iaculis fringilla, dictum vel massa.
+                    Proin facilisis nec tortor quis tincidunt. Vivamus euismod fringilla nunc in elementum.
+                    Cras condimentum nunc et tellus posuere, at venenatis metus accumsan. Cras viverra erat vitae odio posuere rutrum.
+                    Nullam nec felis ut nisi consectetur dapibus a at urna. Nullam volutpat tincidunt sodales.</p>
+
             </div>
 
         </div>
     </div>
 </div>
+
+
 
 </body>
 </html>

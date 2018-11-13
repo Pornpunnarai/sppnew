@@ -70,7 +70,7 @@
         #content-members {
             position: absolute;
             top: 12vh;
-            bottom: 0px;
+            bottom: 20vh;
             left: 0px;
             right: -20px;
             overflow: auto;
@@ -123,8 +123,15 @@
             border-left: 10px #6A8E41 solid;
         }
 
-
-
+        .our-partner{
+            margin-left: 450px;
+            bottom: 2%;
+            position: absolute;
+            left: 2%;
+            font-family: lato-black;
+            font-size: 25px;
+            color: white;
+        }
     </style>
 </head>
 
@@ -287,6 +294,12 @@
         </div>
     </div>
 
+    <div class="our-partner">
+        <p>Our Partner</p>
+        <a><img src="img/logo/logo2.png"></a>
+        <a><img src="img/logo/NASPAA.png"></a>
+        <a><img src="img/logo/apppn.png"></a>
+    </div>
 
 </div>
 
