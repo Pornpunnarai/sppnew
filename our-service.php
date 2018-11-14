@@ -81,7 +81,7 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" href="about-us.php">
+<a class="header-word" style="color: white;">
     <b style="font-size: 72px;">&nbsp;Our Service </b>
 </a>
 
@@ -101,7 +101,8 @@
                     business and society. Our experienced team, many of whom have previously held critical positions
                     in government and industry, has expertise in a variety of multidisciplinary backgrounds.
                     We can help you :</p>
-                <button class="btn register" style="height: 4vh;">Contact Now</button>
+                <a href="contact-us.php"><button class="btn register" style="height: 4vh;" >Contact Now</button></a>
+
 
             </div>
         </div>
@@ -119,7 +120,7 @@
                     who are working in various communities to be better
                     in all aspects of policy management,
                     deliberative processes, and social engagement.</p>
-                <button class="btn register" style="height: 4vh;">Contact Now</button>
+                <a href="contact-us.php"><button class="btn register" style="height: 4vh;" >Contact Now</button></a>
             </div>
         </div>
     </div>

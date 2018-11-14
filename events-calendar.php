@@ -144,7 +144,7 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" href="about-us.php">
+<a class="header-word" style="color: white;">
     <b style="font-size: 72px;">&nbsp;Events Calendar</b>
     <p style="font-size: 36px; font-family:lato-black; margin-left: 5%;">Upcoming event</p>
 </a>

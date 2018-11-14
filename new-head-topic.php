@@ -98,7 +98,7 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="back-btn" href="about-us.php">
+<a class="back-btn" href="new-activity-unit.php">
     <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
     <p style="font-size: 65px; font-family: lato-black; margin-left: 30px;">News Head Topic</p>
 </a>

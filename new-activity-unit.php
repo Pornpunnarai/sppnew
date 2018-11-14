@@ -147,7 +147,7 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" href="about-us.php">
+<a class="header-word" style="color: white;">
     <b style="font-size: 72px;">&nbsp;News & Activities</b>
 </a>
 
@@ -157,7 +157,7 @@
         <ul class="members">
             <li class="member">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
+                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;"><a style="color:black;" href="new-head-topic.php">Head Topics</a></p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>
@@ -278,7 +278,7 @@
         </ul>
     </div>
 
-    <a class="back-btn" href="about-us.php">
+    <a class="back-btn" href="new-activity.php">
         <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
     </a>
 

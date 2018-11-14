@@ -16,11 +16,11 @@
                 <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-1" aria-owns="submenu-1" href="index.php">Home</a></li>
                 <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-2" aria-owns="submenu-2" href="about-us.php">About us</a></li>
                 <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-3" href="phd-master-program.php">PhD and Master</a></li>
-                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-4" href="research-units.php">Research units</a></li>
-                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-4" aria-owns="submenu-5" href="#">News &amp; Activity</a></li>
-                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-6" href="#">Service</a></li>
-                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-4" aria-owns="submenu-7" href="#">Event &amp; Calendar</a></li>
-                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-8" href="#">Contact us</a></li>
+                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-4" href="research-center.php">Research units</a></li>
+                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-4" aria-owns="submenu-5" href="new-activity.php">News &amp; Activity</a></li>
+                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-6" href="our-service.php">Service</a></li>
+                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-4" aria-owns="submenu-7" href="events-calendar.php">Event &amp; Calendar</a></li>
+                <li class="menu_item" role="menuitem"><a class="menu_link" data-submenu="submenu-3" aria-owns="submenu-8" href="contact-us.php">Contact us</a></li>
             </ul>
         </div>
     </div>

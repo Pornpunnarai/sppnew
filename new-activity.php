@@ -136,7 +136,7 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" href="about-us.php">
+<a class="header-word" style="color: white;">
     <b style="font-size: 72px;">&nbsp;News & Activities</b>
     <p style="font-size: 24px;margin-left: 5%;">Let see more our activites</p>
 </a>
@@ -306,7 +306,7 @@
                             </div>
                         </div>
 
-                        <p style="color: white;font-size: 36px;font-family: lato-regular; float: right;    margin-top: 4vh;">Read more -></p>
+                        <p style="color: white;font-size: 36px;font-family: lato-regular; float: right;    margin-top: 4vh;"><a href="new-activity-unit.php" style="color: white;">Read more -></a></p>
                     </div>
                     <!--.Carousel-->
 

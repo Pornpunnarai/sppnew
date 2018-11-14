@@ -140,8 +140,9 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" href="about-us.php">
-    <b style="font-size: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;Research Units</b>
+<a class="header-word" href="research-center.php">
+    <b style="font-size: 32px;">&nbsp;&nbsp;&nbsp;&nbsp;Research Units</b><br>
+    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
 </a>
 
 <div class="row content-header" style="">
@@ -159,7 +160,7 @@
         <ul class="members">
             <li class="member">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
+                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>

@@ -171,7 +171,7 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" href="about-us.php">
+<a class="header-word" style="color: white;">
     <b style="font-size: 72px;">&nbsp;Research Center</b>
     <p style="font-size: 24px;margin-left: 5%;">Read more our signature research for Public Policy</p>
 </a>
@@ -310,7 +310,8 @@
 
                         <!--.carousel-inner-->
 
-                        <p style="color: white;font-size: 36px;font-family: lato-regular; float: right;margin-top: 5px;">Read more our work -></p>
+                        <p style="color: white;font-size: 36px;font-family: lato-regular; float: right;margin-top: 5px;">
+                            <a href="research-units.php" style="color: white;">Read more our work -></a></p>
                     </div>
                     <!--.Carousel-->
 
