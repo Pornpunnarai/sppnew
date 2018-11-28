@@ -227,9 +227,10 @@ div.row.content-header{
 }
 
 .content-name{
-    font-size: 72px;
+    font-size: 36px;
     font-family: lato-black;
     color: white;
+    margin-top: 13%;
 }
 
 
@@ -238,5 +239,5 @@ div.row.content-header{
     height: 37px;
     border-right: 57px #04B1DC solid;
     margin-right: -15px;
-    margin-top: 45px;
+    margin-top: 40px;
 }

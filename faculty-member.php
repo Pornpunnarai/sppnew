@@ -70,21 +70,6 @@
             margin-left: -8%;
         }
 
-        div.row.content-header{
-            position: absolute;
-            top: 2vh;
-            right: 0;
-            margin-right: 15px;
-            z-index: 2;
-        }
-
-        .content-name{
-            font-size: 72px;
-            font-family: lato-black;
-            color: white;
-        }
-
-
         .border-content-header{
             top: 10px;
             height: 37px;
@@ -100,6 +85,8 @@
             color: white;
             z-index: 2;
         }
+
+
     </style>
 </head>
 
@@ -108,13 +95,8 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="back-btn" href="about-us.php">
-    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
-</a>
-
-<div class="row content-header" style="">
-
-    <div class="content-name">
+<div class="row content-header">
+    <div class="content-name" style="margin-top: 9%;">
         Faculty Members
     </div>
     <div class="border-content-header">
@@ -122,6 +104,13 @@
     </div>
 
 </div>
+
+<a class="back-btn" href="about-us.php">
+    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
+</a>
+
+
+
 <div class="container1">
     <div id="content-members">
         <ul class="members">
