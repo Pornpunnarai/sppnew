@@ -4,7 +4,9 @@
     <title>School of Public Policy</title>
     <?php include 'head-part.php'?>
 </head>
+
 <body>
+
 <div class="slide-wrapper">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -29,38 +31,20 @@
                 <img class="d-block w-100" src="img/Desktop-Background/HomePage1.png" alt="First slide" style="filter: brightness(65%);">
 
                 <div class="carousel-caption d-md-block">
-                    <div class="row">
-                        <b  style="font-size: 48px">Our Purpose</b>
-                    </div>
                     <div class="row" style="padding-top: 10px;">
-                        <hr width="184px" style="border: 5px solid #04B1DC" color="#04B1DC" align="left">
+                        <img src="img/Rectangle%2054@2x.png" width="184px" style="height: 12px;margin-top: 2vh;">
+                        <b style="font-size: 24px;padding-left: 2vw;">Our Purpose</b>
                     </div>
-                    <div class="row" style="justify-content: flex-start">
-                        <b style="font-size: 120px">inclusive</b>
+                    <div class="row" style="margin-top: 2%">
+                        <b style="font-size: 72px">inclusive</b>
                     </div>
-                    <div class="row" style="justify-content: center;">
-                        <b style="font-size: 120px;">innovation</b>
+                    <div class="row">
+                        <b style="font-size: 72px;">innovation</b>
                     </div>
-                    <div class="row" style="justify-content: flex-end;">
-                        <b style="font-size: 120px;">Progressive</b>
-                    </div>
-                </div>
-
-                <div class="row event-last-research">
-                    <div class="up-coming-event-block" style="text-align: left">
-                        <div style="font-size: 14px; font-family: lato-bold">Upcoming event</div>
-                        <div style="font-size: 24px; font-family: lato-bold">Policy Market : <br>Energy Policy Option</div>
-                        <div style="font-size: 18px; font-family: lato-light">12 September 2018</div>
-                    </div>
-
-                    <div class="last-research-block" style="text-align: left">
-                        <div style="font-size: 14px; font-family: lato-bold">Last research post</div>
-                        <div style="font-size: 24px; font-family: lato-bold">What is sustainable <br>energy policy</div>
-                        <div style="font-size: 18px; font-family: lato-light">by Dr.Oraorn</div>
+                    <div class="row">
+                        <b style="font-size: 72px;">Progressive</b>
                     </div>
                 </div>
-
-
             </div>
 
             <div class="carousel-item">
@@ -70,60 +54,73 @@
                         <p  style="font-size: 24px">Chiang Mai University</p>
                     </div>
 
-                    <div class="row" style="justify-content: flex-start; margin-top: -5vh;">
-                        <b style="font-size: 120px">School of</b>
+                    <div class="row" style="justify-content: flex-start; margin-top: -3vh;">
+                        <b style="font-size: 72px">School of</b>
                     </div>
 
                     <div class="row" style="float: left; margin-left: -8vw;">
-                        <img src="img/Rectangle%2054@2x.png" width="250px" style="height: 15px;margin-top: 8vh;">
-                        <b style="font-size: 120px;padding-left: 2vw;">Public Policy</b>
+                        <img src="img/Rectangle%2054@2x.png" width="250px" style="height: 15px;margin-top: 5vh;">
+                        <b style="font-size: 72px;padding-left: 2vw;">Public Policy</b>
                     </div>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/Desktop-Background/HomePage3.png" alt="Third slide" style="filter: brightness(70%);">
-                <div class="carousel-caption d-md-block padding-top-block">
-
-                    <div class="row" style="justify-content: flex-start; margin-top: -5vh;">
-                        <b style="font-size: 120px">Policy Market</b>
-                    </div>
-
+                <div class="carousel-caption d-md-block policy-market-block">
                     <div class="row" style="float: left; margin-left: -8vw;">
-                        <img src="img/Rectangle%2054@2x.png" width="250px" style="height: 15px;margin-top: 8vh; ">
-                        <b style="font-size: 120px;padding-left: 2vw;">Energy Policy</b>
-                    </div>
+                        <img src="img/Rectangle%2054@2x.png" width="250px" style="height: 15px;margin-top: 9vh; ">
+                        <div class="row" style="padding-left: 3vw; text-align: left;">
+                            <p><b style="font-size: 24px;">Policy Market EP : 4</b><br>
+                            <b style="font-size: 72px;">Differently Abled</b><br>
+                            <b style="font-size: 24px;">: New Paradigms for Inclusive Higher Education</b><br>
+                            <b style="font-size: 24px;">6 - 7 December 2018</b><br>
+                            <b style="font-size: 24px;">At Northern Science Park, Chiang Mai, Thailand</b><br>
 
-                    <div class="row" style="float: left; margin-left: 8vw; ">
-                        <button class="btn register" style="height: 4vh;margin-top: 8vh;">Register now</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <button class="btn register" style="height: 4vh;margin-top: 8vh;">Download Material</button>
-                        <b style="font-size: 120px;padding-left: 2vw;">Option</b>
+                                <button class="btn register" style="height: 4vh;margin-top: 4vh;">Register now</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button class="btn register" style="height: 4vh;margin-top: 4vh;">Download Material</button>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/Desktop-Background/HomePage4.png" alt="Fourth slide" style="filter: brightness(70%);">
-                <div class="carousel-caption d-md-block padding-top-block">
+                <div class="carousel-caption d-md-block phd-block">
 
                     <div class="row" style="justify-content: flex-start; margin-top: -5vh;">
-                        <b style="font-size: 120px">PhD & Master</b>
+                        <b style="font-size: 72px">PhD & Master</b>
                     </div>
 
-                    <div class="row" style="float: left; margin-left: -8vw;">
-                        <img src="img/Rectangle%2054@2x.png" width="250px" style="height: 15px;margin-top: 8vh; ">
-                        <b style="font-size: 120px;padding-left: 2vw;">in Public Policy</b>
+                    <div class="row" style="float: left; margin-left: -15vw;">
+                        <img src="img/Rectangle%2054@2x.png" width="250px" style="height: 15px;margin-top: 6vh; ">
+                        <b style="font-size: 72px;padding-left: 2vw;">in Public Policy</b>
+
+                        <button class="btn register" style="height: 4vh;    margin-top: 5vh; margin-left: 5vw;">Register now</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button class="btn register" style="height: 4vh;    margin-top: 5vh;">Download Material</button>
                     </div>
 
-                    <div class="row" style="float: left; margin-left: 8vw;padding-top: 5vh">
-                        <b style="font-size: 38px;">Learn more <i class="fa fal fa-arrow-right"></i></b>
-                        <div class="row" style="margin-left: 10vw;">
-                            <button class="btn register" style="height: 4vh;">Register now</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <button class="btn register" style="height: 4vh;">Download Material</button>
-                        </div>
+                    <div class="row" style="float: left; margin-left: 19vw;padding-top: 1vh">
+                        <b style="font-size: 18px;">Learn more <i class="fa fal fa-arrow-right"></i></b>
                     </div>
                 </div>
             </div>
+
+            <div class="row event-last-research">
+                <div class="up-coming-event-block" style="text-align: left">
+                    <div style="font-size: 14px; font-family: lato-bold;">Upcoming event</div>
+                    <div style="font-size: 20px; font-family: lato-bold; margin-top: 2%; margin-bottom: 2%;">Policy Market : <br>Energy Policy Option</div>
+                    <div style="font-size: 12px; font-family: lato-light;">12 September 2018</div>
+                </div>
+
+                <div class="last-research-block" style="text-align: left">
+                    <div style="font-size: 14px; font-family: lato-bold;">Last research post</div>
+                    <div style="font-size: 20px; font-family: lato-bold; margin-top: 2%; margin-bottom: 2%;">What is sustainable <br>energy policy</div>
+                    <div style="font-size: 12px; font-family: lato-light; font-style: italic">by Dr.Oraorn</div>
+                </div>
+            </div>
+
         </div>
 
     </div>

@@ -13,7 +13,6 @@
 
 
     <style>
-
         *{margin:0;}
 
         body, html {
@@ -110,25 +109,25 @@
             </div>
 
             <div class="row blog">
-                    <div class="col-md-12" >
-                        <div class="row" style="color: white; font-family: lato-black; font-size: 21px; text-align: center; justify-content: center;">
-                            <div class="col-lg-3 box-shade">
-                                <i class="fas fa-map-marked-alt fa-5x" style="padding: 2rem;"></i>
-                                <p>Norther Science Park,B Building, Room 303 , 304</p>
-                                <p>155 M. 2, Mea Hia,Mueang Chiang Mai,Chiang Mai 50200</p>
-                            </div>
-                            <div class="col-lg-3 box-shade">
-                                <i class="fas fa-phone-volume fa-5x" style="padding: 2rem;"></i>
-                                <p>(+66) 087 - 717 - 3637</p>
-                                <p>(+66) 055 - 555 - 555</p>
-                            </div>
-                            <div class="col-lg-3 box-shade">
-                                <i class="far fa-paper-plane fa-5x" style="padding: 2rem;"></i>
-                                <p>spp@cmu.ac.th</p>
-                            </div>
+                <div class="col-md-12" >
+                    <div class="row" style="color: white; font-family: lato-black; font-size: 21px; text-align: center; justify-content: center;">
+                        <div class="col-lg-3 box-shade">
+                            <i class="fas fa-map-marked-alt fa-5x" style="padding: 2rem;"></i>
+                            <p>Norther Science Park,B Building, Room 303 , 304</p>
+                            <p>155 M. 2, Mea Hia,Mueang Chiang Mai,Chiang Mai 50200</p>
+                        </div>
+                        <div class="col-lg-3 box-shade">
+                            <i class="fas fa-phone-volume fa-5x" style="padding: 2rem;"></i>
+                            <p>(+66) 087 - 717 - 3637</p>
+                            <p>(+66) 055 - 555 - 555</p>
+                        </div>
+                        <div class="col-lg-3 box-shade">
+                            <i class="far fa-paper-plane fa-5x" style="padding: 2rem;"></i>
+                            <p>spp@cmu.ac.th</p>
                         </div>
                     </div>
                 </div>
+            </div>
 
         </div>
     </div>

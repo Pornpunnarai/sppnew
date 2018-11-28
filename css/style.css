@@ -160,12 +160,17 @@ div.our-center-block2 {
 }
 
 .carousel-caption.d-md-block.spp-block{
-    top: 15%;
+    top: 23%;
     left: 26%;
 }
 
-.carousel-caption.d-md-block.padding-top-block{
-    top: 20%;
+.carousel-caption.d-md-block.phd-block{
+    top: 32%;
+    left: 32%;
+}
+
+.carousel-caption.d-md-block.policy-market-block{
+    top: 30%;
     left: 26%;
 }
 
@@ -177,7 +182,7 @@ button.register {
     margin-bottom: 25px;
     background-color: #3EB060;
     border-color: #3EB060;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'lato-regular';
     color: white;
 }
