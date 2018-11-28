@@ -75,6 +75,7 @@
             right: -20px;
             overflow: auto;
             margin-left: 450px;
+            text-align: center;
         }
 
         .members {
@@ -86,8 +87,8 @@
 
         .member {
             display: inline-block;
-            width: 234px;
-            height: 172px;
+            width: 340px;
+            height: 171px;
             margin: 10px;
             background: #FE5B29;
             margin-top: 5%;
@@ -96,31 +97,19 @@
 
         .member-content{
             padding: 10px;
-            margin-top: 73%;
+            margin-top: 171px;
             background-color: #FFFFFF;
             border: 1px solid #AFAFAF;
+            text-align: left;
         }
 
 
         .box{
-            font-family: lato-black;
-            font-size: 7px;
-            margin-top: -3px;
+            font-family: lato-light;
+            font-size: 12px;
+            margin-top: -11px;
             width: 50%;
             float: left;
-        }
-
-        div.our-center-block {
-            /*left: 85%;*/
-            margin-left: 5px;
-            border-left: 10px #F1D32B solid;
-        }
-
-
-        div.our-center-block2 {
-            /*left: 85%;*/
-            margin-left: 5px;
-            border-left: 10px #6A8E41 solid;
         }
 
         .our-partner{
@@ -141,158 +130,102 @@
 <?php include 'sidebar-navbar.php'?>
 
 <a class="header-word" href="research-center.php">
-    <b style="font-size: 32px;">&nbsp;&nbsp;&nbsp;&nbsp;Research Units</b><br>
-    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
+    <b style="font-size: 36px; font-family: lato-black;">&nbsp;&nbsp;&nbsp;&nbsp;Research Units</b><br>
+    <b style="font-size: 18px; margin-top: 2vh;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
 </a>
 
-<div class="row content-header" style="">
-
-    <div class="content-name">
-        PhD in Public Policy
-    </div>
-    <div class="border-content-header">
-        &nbsp;&nbsp;&nbsp;
-    </div>
-
-</div>
 <div class="container1">
     <div id="content-members">
         <ul class="members">
             <li class="member">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
+                    <p style="font-family: lato-bold; font-size: 17px;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
+                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                    <p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
+                    <p class="box" style="text-align: right; color:#A7A7A7;font-style: italic;">
                         the Author name
                     </p>
+                    </p>
+
                 </div>
             </li>
 
             <li class="member" style="background-color: #00B3DE">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
+                    <p style="font-family: lato-bold; font-size: 17px;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
+                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
+                    <p class="box" style="text-align: right; color:#A7A7A7;font-style: italic;">
                         the Author name
                     </p>
                 </div>
             </li>
-
             <li class="member">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
+                    <p style="font-family: lato-bold; font-size: 17px;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
+                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                    <p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
+                    <p class="box" style="text-align: right; color:#A7A7A7;font-style: italic;">
                         the Author name
                     </p>
+                    </p>
+
                 </div>
             </li>
 
             <li class="member" style="background-color: #00B3DE">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
+                    <p style="font-family: lato-bold; font-size: 17px;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
+                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
+                    <p class="box" style="text-align: right; color:#A7A7A7;font-style: italic;">
                         the Author name
                     </p>
                 </div>
             </li>
-
             <li class="member">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
+                    <p style="font-family: lato-bold; font-size: 17px;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
+                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                    <p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
+                    <p class="box" style="text-align: right; color:#A7A7A7;font-style: italic;">
                         the Author name
                     </p>
+                    </p>
+
                 </div>
             </li>
 
             <li class="member" style="background-color: #00B3DE">
                 <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
+                    <p style="font-family: lato-bold; font-size: 17px;"><a style="color:black;" href="research-topic.php">Head Topics</a></p>
+                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
                     <p class="box">
                         Date (xx:xx:xx)
                     </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
+                    <p class="box" style="text-align: right; color:#A7A7A7;font-style: italic;">
                         the Author name
                     </p>
                 </div>
             </li>
 
-            <li class="member">
-                <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
-                    <p class="box">
-                        Date (xx:xx:xx)
-                    </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
-                        the Author name
-                    </p>
-                </div>
-            </li>
 
-            <li class="member" style="background-color: #00B3DE">
-                <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
-                    <p class="box">
-                        Date (xx:xx:xx)
-                    </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
-                        the Author name
-                    </p>
-                </div>
-            </li>
 
-            <li class="member">
-                <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
-                    <p class="box">
-                        Date (xx:xx:xx)
-                    </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
-                        the Author name
-                    </p>
-                </div>
-            </li>
-
-            <li class="member" style="background-color: #00B3DE">
-                <div class="member-content">
-                    <p style="font-family: lato-bold; font-size: 17px; margin-bottom: 3rem;">Head Topics</p>
-                    <p class="box">
-                        Date (xx:xx:xx)
-                    </p>
-                    <p class="box" style="text-align: right; color:#A7A7A7 ">
-                        the Author name
-                    </p>
-                </div>
-            </li>
 
         </ul>
-    </div>
-
-    <div class="row event-last-research">
-        <div class="our-center-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our center</div>
-            <div style="font-size: 24px; font-family: lato-bold">ECUP</div><br>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information</div>
-        </div>
-
-        <div class="our-center-block2" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our center </div>
-            <div style="font-size: 24px; font-family: lato-bold">USER</div><br>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information </div>
-        </div>
     </div>
 
     <div class="our-partner">

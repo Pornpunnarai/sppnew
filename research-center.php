@@ -171,9 +171,9 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" style="color: white;">
-    <b style="font-size: 72px;">&nbsp;Research Center</b>
-    <p style="font-size: 24px;margin-left: 5%;">Read more our signature research for Public Policy</p>
+<a class="header-word" style="color: white; margin-top: 3vh;">
+    <b style="font-size: 36px; margin-left: 2vw; font-family: lato-black;">Research Center</b>
+    <p style="font-size: 18px; margin-left: 2vw; font-family: lato-regular; margin-top: 2vh;">Read more our signature research for Public Policy</p>
 </a>
 
 
@@ -190,7 +190,7 @@
             </div>
 
 
-            <div class="row" style="text-align: center;font-size: 24px;color: white;font-family: lato-light;    margin-top: 5%;">
+            <div class="row" style="text-align: center;font-size: 24px;color: white;font-family: lato-regular;    margin-top: 5%;">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-2">Environment</div>
                 <div class="col-lg-1">|</div>
@@ -310,27 +310,14 @@
 
                         <!--.carousel-inner-->
 
-                        <p style="color: white;font-size: 36px;font-family: lato-regular; float: right;margin-top: 5px;">
-                            <a href="research-units.php" style="color: white;">Read more our work -></a></p>
+                        <p style="color: white;font-size: 18px;font-family: lato-regular; float: right;margin-top: 2vh;">
+                            <a href="research-units.php" style="color: white;">Read more our work &nbsp;&nbsp;<i class="fa fal fa-arrow-right"></i></a>
+                        </p>
                     </div>
                     <!--.Carousel-->
 
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="row event-last-research">
-        <div class="our-center-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our center</div>
-            <div style="font-size: 24px; font-family: lato-bold">ECUP</div><br>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information</div>
-        </div>
-
-        <div class="our-center-block2" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our center </div>
-            <div style="font-size: 24px; font-family: lato-bold">USER</div><br>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information </div>
         </div>
     </div>
 

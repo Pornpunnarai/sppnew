@@ -38,7 +38,7 @@
 
         #content-members {
             position: absolute;
-            top: 18vh;
+            top: 12vh;
             bottom: 0px;
             left: 0px;
             right: -20px;
@@ -49,6 +49,7 @@
         .members {
             margin: 0;
             padding: 2em;
+            padding-top: 1rem;
         }
 
         .member {
@@ -57,30 +58,6 @@
             color: white;
             font-family: lato-light;
             font-size: 25px;
-        }
-
-
-        div.row.content-header{
-            position: absolute;
-            top: 2vh;
-            right: 0;
-            margin-right: 15px;
-            z-index: 2;
-        }
-
-        .content-name{
-            font-size: 72px;
-            font-family: lato-black;
-            color: white;
-        }
-
-
-        .border-content-header{
-            top: 10px;
-            height: 37px;
-            border-right: 57px #04B1DC solid;
-            margin-right: -15px;
-            margin-top: 45px;
         }
 
         .back-btn{
@@ -99,8 +76,8 @@
 <?php include 'sidebar-navbar.php'?>
 
 <a class="back-btn" href="new-activity-unit.php">
-    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
-    <p style="font-size: 65px; font-family: lato-black; margin-left: 30px;">News Head Topic</p>
+    <b style="font-size: 18px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
+    <p style="font-size: 36px; font-family: lato-black; margin-left: 30px;">News & Activities Topic</p>
 </a>
 
 <div class="container1">

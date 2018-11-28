@@ -91,8 +91,8 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" style="color: white;">
-    <b style="font-size: 72px;">&nbsp;Contact Us</b>
+<a class="header-word" style="color: white; margin-top: 3vh;">
+    <b style="font-size: 36px;">&nbsp;Contact Us</b>
 </a>
 
 <div class="container1">

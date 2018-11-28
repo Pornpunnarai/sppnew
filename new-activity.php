@@ -66,7 +66,7 @@
             position: absolute;
             padding-left: 2em;
             padding-right: 2em;
-            margin-top: 20vh;
+            margin-top: 15vh;
             justify-content: center;
         }
 
@@ -120,7 +120,7 @@
         .text-overlay {
             color: white;
             font-size: 36px;
-            font-family: lato-bold;
+            font-family: lato-black;
             position: absolute;
             top: 25%;
             -webkit-transform: translate(-10%, -10%);
@@ -136,9 +136,9 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" style="color: white;">
-    <b style="font-size: 72px;">&nbsp;News & Activities</b>
-    <p style="font-size: 24px;margin-left: 5%;">Let see more our activites</p>
+<a class="header-word" style="color: white;margin-top: 3vh;">
+    <b style="font-size: 36px; margin-left: 2vw; font-family: lato-black;margin-top: 1vh;">News & Activities</b>
+    <p style="font-size: 18px; margin-left: 2vw; font-family: lato-regular; margin-top: 1vh;">&nbsp;&nbsp;&nbsp;Let see more our activites</p>
 </a>
 
 
@@ -166,7 +166,7 @@
                             </a>
                         </ol>
 
-                        <p style="color: white;font-size: 36px;font-family: lato-bold;">Lasted activities </p>
+                        <p style="color: white;font-size: 36px;font-family: lato-black;">Lasted activities </p>
                         <!-- Carousel items -->
                         <div class="carousel-inner">
 
@@ -177,8 +177,8 @@
                                             <div class=" image-overlay">
                                                 <img src="img/research-center/1.png" class="image" alt="Image" style="max-width:100%;    border-bottom: 10px solid #04B1DC;">
                                                 <div class="overlay">
-                                                    <div class="text-overlay">How to make sustainable world<br>
-                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">by Dr. Warathida</small></div>
+                                                    <div class="text-overlay">International Meeting at SPP<br>
+                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">25 Aug 2018</small></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -188,8 +188,8 @@
                                             <div class=" image-overlay">
                                                 <img src="img/research-center/2.png" class="image" alt="Image" style="max-width:100%;    border-bottom: 10px solid #04B1DC;">
                                                 <div class="overlay">
-                                                    <div class="text-overlay">How to make sustainable world<br>
-                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">by Dr. Warathida</small></div>
+                                                    <div class="text-overlay">International Meeting at SPP<br>
+                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">25 Aug 2018</small></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -199,8 +199,8 @@
                                             <div class=" image-overlay">
                                                 <img src="img/research-center/3.png" class="image" alt="Image" style="max-width:100%;    border-bottom: 10px solid #04B1DC;">
                                                 <div class="overlay">
-                                                    <div class="text-overlay">How to make sustainable world<br>
-                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">by Dr. Warathida</small></div>
+                                                    <div class="text-overlay">International Meeting at SPP<br>
+                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">25 Aug 2018</small></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -210,8 +210,8 @@
                                             <div class=" image-overlay">
                                                 <img src="img/research-center/4.png" class="image" alt="Image" style="max-width:100%;    border-bottom: 10px solid #04B1DC;">
                                                 <div class="overlay">
-                                                    <div class="text-overlay">How to make sustainable world<br>
-                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">by Dr. Warathida</small></div>
+                                                    <div class="text-overlay">International Meeting at SPP<br>
+                                                        <small style="font-family: lato-light; font-style: italic;font-size: 18px;">25 Aug 2018</small></div>
                                                 </div>
                                             </div>
                                         </a>
@@ -251,7 +251,7 @@
                         </div>
 
 
-                        <p style="color: white;font-size: 36px;font-family: lato-bold;    margin-top: 4vh;">Current policy debates</p>
+                        <p style="color: white;font-size: 36px;font-family: lato-black;    margin-top: 4vh;">Current policy debates</p>
                         <!-- Carousel items -->
                         <div class="a-inner">
                             <div class="a-item active">
@@ -306,7 +306,7 @@
                             </div>
                         </div>
 
-                        <p style="color: white;font-size: 36px;font-family: lato-regular; float: right;    margin-top: 4vh;"><a href="new-activity-unit.php" style="color: white;">Read more -></a></p>
+                        <p style="color: white;font-size: 18px;font-family: lato-black; float: right;    margin-top: 4vh;"><a href="new-activity-unit.php" style="color: white;">Learn more &nbsp;&nbsp;<i class="fa fal fa-arrow-right"></i></a></p>
                     </div>
                     <!--.Carousel-->
 

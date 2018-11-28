@@ -49,7 +49,7 @@
         .members {
             margin: 0;
             padding: 2em;
-            padding-top: 4rem;
+            padding-top: 1rem;
 
         }
 
@@ -61,29 +61,6 @@
             font-size: 25px;
         }
 
-
-        div.row.content-header{
-            position: absolute;
-            top: 2vh;
-            right: 0;
-            margin-right: 15px;
-            z-index: 2;
-        }
-
-        .content-name{
-            font-size: 72px;
-            font-family: lato-black;
-            color: white;
-        }
-
-
-        .border-content-header{
-            top: 10px;
-            height: 37px;
-            border-right: 57px #04B1DC solid;
-            margin-right: -15px;
-            margin-top: 45px;
-        }
 
         .back-btn{
             position: absolute;
@@ -101,8 +78,8 @@
 <?php include 'sidebar-navbar.php'?>
 
 <a class="back-btn" href="research-units.php">
-    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
-    <p style="font-size: 65px; font-family: lato-black; margin-left: 30px;">Research Head Topic</p>
+    <b style="font-size: 18px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
+    <p style="font-size: 36px; font-family: lato-black; margin-left: 30px;">Research Head Topic</p>
 </a>
 
 <div class="container1">
@@ -129,6 +106,17 @@
                     Proin facilisis nec tortor quis tincidunt. Vivamus euismod fringilla nunc in elementum.
                     Cras condimentum nunc et tellus posuere, at venenatis metus accumsan. Cras viverra erat vitae odio posuere rutrum.
                     Nullam nec felis ut nisi consectetur dapibus a at urna. Nullam volutpat tincidunt sodales.</p>
+
+                <div class="row" style="background-color: #FFFEFE; width: 100%;padding: 30px;">
+                    <div class="col-lg-3" style="background-color: #FE5B29; border-radius: 50%;"></div>
+                    <div class="col-lg-9">
+                        <p style="font-style: italic; font-family: lato-bold; font-size: 36px; color: black;">The Author name</p>
+                        <p style="font-family: lato-regular; font-size: 30px; color: black;">The Author position</p>
+                        <p style="font-style: italic; font-family: lato-light; font-size: 30px; color: black;">The Author qute</p>
+                        <br>
+                        <p style="font-style: italic; font-family: lato-light; font-size: 30px; color: black;">presentation...</p>
+                    </div>
+                </div>
 
             </div>
 

@@ -81,16 +81,16 @@
 
 <?php include 'sidebar-navbar.php'?>
 
-<a class="header-word" style="color: white;">
-    <b style="font-size: 72px;">&nbsp;Our Service </b>
+<a class="header-word" style="color: white; margin-top: 3vh;">
+    <b style="font-size: 36px;">&nbsp;Our Service </b>
 </a>
 
 
 
 <div class="container1">
     <div id="content-members">
-        <p style="font-size: 36px; font-family: lato-black;">Consultancy</p>
-        <div class="row" style="margin-right: 15px; font-size: 18px; font-family: lato-regular;">
+        <p style="font-size: 24px; font-family: lato-black;">Consultancy</p>
+        <div class="row" style="margin-right: 15px; font-size: 14px; font-family: lato-regular;">
             <div class="col-lg-3">
                 <img src="img/our-service/consultancy.png" class="image" alt="Image" style="max-width:100%; border-left: 10px solid #04B1DC; filter: brightness(70%);">
             </div>
@@ -106,8 +106,8 @@
 
             </div>
         </div>
-        <p style="font-size: 36px; font-family: lato-black; margin-top: 2vh;">Executive Education</p>
-        <div class="row" style=" margin-right: 15px; font-size: 18px; font-family: lato-regular;">
+        <p style="font-size: 24px; font-family: lato-black; margin-top: 2vh;">Executive Education</p>
+        <div class="row" style=" margin-right: 15px; font-size: 14px; font-family: lato-regular;">
             <div class="col-lg-3">
                 <img src="img/our-service/executive-education.png" class="image" alt="Image" style="max-width:100%;    border-left: 10px solid #04B1DC;filter: brightness(70%);">
             </div>
