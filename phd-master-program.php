@@ -48,30 +48,6 @@
             font-family: lato-bold;
         }
 
-
-        div.row.content-header{
-            position: absolute;
-            top: 2vh;
-            right: 0;
-            margin-right: 15px;
-            z-index: 2;
-        }
-
-        .content-name{
-            font-size: 72px;
-            font-family: lato-black;
-            color: white;
-        }
-
-
-        .border-content-header{
-            top: 10px;
-            height: 37px;
-            border-right: 57px #04B1DC solid;
-            margin-right: -15px;
-            margin-top: 45px;
-        }
-
         .master-phd-detail{
             font-family: lato-regular;
             font-size: 24px;
@@ -92,7 +68,6 @@
 <?php include 'sidebar-navbar.php'?>
 
 <div class="row content-header" style="">
-
     <div class="content-name">
         PhD and Master's in Public Policy
     </div>
@@ -101,30 +76,32 @@
     </div>
 
 </div>
+
+
 <div class="container1">
     <div id="content-detail">
         <div class="detail" style="margin-left: 2%; margin-top: 10vh;">
-            <p style="font-size: 52px">PhD Program</p>
+            <p style="font-size: 36px">PhD Program</p>
 
             <div class="row master-phd-detail" style="margin-left: 15%;    margin-right: 15px;">
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="font-size: 24px;">
                     The PhD in Pubilc Policy  is research  - intensive program
                     idea for aspiring  policy experts.
                 </div>
-                <div class="col-lg-5" style="font-size: 12px;">
+                <div class="col-lg-5" style="font-size: 18px; font-family: lato-regular">
                     <button class="btn register" style="height: 4vh;">Register now</button>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <button class="btn register" style="height: 4vh;">Download Brochure</button>
                 </div>
             </div>
 
-            <p style="font-size: 52px;    margin-top: 4%;">Master Program</p>
+            <p style="font-size: 36px;    margin-top: 4%;">Master Program</p>
             <div class="row master-phd-detail" style="margin-left: 15%;    margin-right: 15px;">
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="font-size: 24px;">
                     The Master in Public Policy provides rigorous training for
                     the next generation of decision - makers.
                 </div>
-                <div class="col-lg-5" style="font-size: 12px;">
+                <div class="col-lg-5" style="font-size: 18px; font-family: lato-regular;">
                     <button class="btn register" style="height: 4vh;">Register now</button>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <button class="btn register" style="height: 4vh;">Download Brochure</button>
@@ -138,24 +115,6 @@
         <div class="our-faculty-block" style="text-align: left">
             <div style="font-size: 14px; font-family: lato-bold">Our Faculty</div>
             <div style="font-size: 24px; font-family: lato-bold">Our <br>Faculty</div>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information </div>
-        </div>
-
-        <div class="coursework-master-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our Coursework</div>
-            <div style="font-size: 24px; font-family: lato-bold">Learn More Course <br>in PhD program</div>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information n</div>
-        </div>
-
-        <div class="coursework-phd-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our Coursework</div>
-            <div style="font-size: 24px; font-family: lato-bold">Learn More Course<br>in Master program</div>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information n</div>
-        </div>
-
-        <div class="question-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Have a question </div>
-            <div style="font-size: 24px; font-family: lato-bold">What is Public Policy<br>program</div>
             <div style="font-size: 18px; font-family: lato-light">Click for more information </div>
         </div>
     </div>

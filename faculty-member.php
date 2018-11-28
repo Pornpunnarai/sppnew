@@ -63,19 +63,10 @@
             margin-left: 8%;
         }
 
-
         .member-content{
             width: 116%;
             margin-top: 110%;
             margin-left: -8%;
-        }
-
-        .border-content-header{
-            top: 10px;
-            height: 37px;
-            border-right: 57px #04B1DC solid;
-            margin-right: -15px;
-            margin-top: 45px;
         }
 
         .back-btn{

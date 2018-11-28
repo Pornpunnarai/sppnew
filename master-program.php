@@ -49,29 +49,6 @@
         }
 
 
-        div.row.content-header{
-            position: absolute;
-            top: 2vh;
-            right: 0;
-            margin-right: 15px;
-            z-index: 2;
-        }
-
-        .content-name{
-            font-size: 72px;
-            font-family: lato-black;
-            color: white;
-        }
-
-
-        .border-content-header{
-            top: 10px;
-            height: 37px;
-            border-right: 57px #04B1DC solid;
-            margin-right: -15px;
-            margin-top: 45px;
-        }
-
         .back-btn{
             position: absolute;
             margin-left: 450px;
@@ -88,13 +65,13 @@
 <?php include 'sidebar-navbar.php'?>
 
 <a class="back-btn" href="about-us.php">
-    <b style="font-size: 25px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 20px"></i>&nbsp;&nbsp;Back</b>
+    <b style="font-size: 18px;">&nbsp;&nbsp;<i class="fa fal fa-arrow-left" style="margin-left: 18px"></i>&nbsp;&nbsp;Back</b>
 </a>
 
-<div class="row content-header" style="">
+<div class="row content-header">
 
     <div class="content-name">
-        Master in Public Policy
+        Master's in Public Policy
     </div>
     <div class="border-content-header">
         &nbsp;&nbsp;&nbsp;
@@ -103,50 +80,30 @@
 </div>
 <div class="container1">
     <div id="content-detail">
-        <div class="detail" style="margin-left: 2%;    margin-top: 4%;">
-            <b><p style="font-size: 52px">Application open December 2018<br>Key Facts</p></b>
-            <ul class="a" style="font-size: 25px">
-                <li>1 Year (5 coursework + product)</li>
-                <li>Cutting edge rigorous training</li>
-                <li>International lecturers</li>
-                <li>Tuition: 330,000 Baht</li>
-                <li>Scholarships available</li>
-            </ul>
-            <p style="font-family: lato-regular; font-size: 12px;">
-                <button class="btn register" style="height: 4vh;">Register now</button>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="btn register" style="height: 4vh;">Download Brochure</button>
+        <div class="detail" style="margin-left: 2%;">
+            <p style="font-size: 50px; font-family: lato-black;line-height: 7vh;text-align: center;background: linear-gradient(#cfe1e6, #5d5d5d); padding: 5%;">
+                Master in Public Policy <br>Chiang Mai University School of Public Policy
             </p>
+
+            <div class="col-lg-12">
+                <b><p style="font-size: 36px">Application open December 2018<br>Key Facts</p></b>
+                <div class="col-lg-6">
+                    <ul class="a" style="font-size: 18px">
+                        <li>1 Year (5 coursework + product)</li>
+                        <li>Cutting edge rigorous training</li>
+                        <li>International lecturers</li>
+                        <li>Tuition: 330,000 Baht</li>
+                        <li>Scholarships available</li>
+                    </ul>
+                </div>
+
+                <p class="col-lg-6" style="margin-top: -10%; left: 50%; text-align: center;">
+                    <button class="btn register" style="height: 4vh;">Register now</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn register" style="height: 4vh;">Download Brochure</button>
+                </p>
+            </div>
         </div>
     </div>
-
-    <div class="row event-last-research">
-        <div class="our-faculty-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our Faculty</div>
-            <div style="font-size: 24px; font-family: lato-bold">Our <br>Faculty</div>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information </div>
-        </div>
-
-        <div class="coursework-master-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our Coursework</div>
-            <div style="font-size: 24px; font-family: lato-bold">Learn More Course <br>in PhD program</div>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information n</div>
-        </div>
-
-        <div class="coursework-phd-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Our Coursework</div>
-            <div style="font-size: 24px; font-family: lato-bold">Learn More Course<br>in Master program</div>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information n</div>
-        </div>
-
-        <div class="question-block" style="text-align: left">
-            <div style="font-size: 14px; font-family: lato-bold">Have a question </div>
-            <div style="font-size: 24px; font-family: lato-bold">What is Public Policy<br>program</div>
-            <div style="font-size: 18px; font-family: lato-light">Click for more information </div>
-        </div>
-    </div>
-
-
 </div>
 
 </body>
