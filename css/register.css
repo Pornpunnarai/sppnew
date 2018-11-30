@@ -142,7 +142,7 @@ h1 {
     padding: 3em;
 }
 
-input[type="text"], input[type="email"], input[type="password"] {
+input[type="text"], input[type="email"], input[type="password"],input[type="date"],input[type="date" i]{
     font-size: 0.9em;
     color: #fff;
     font-weight: 100;
@@ -202,6 +202,8 @@ input.email, input.text.w3lpass {
     color: #fff;
 }
 
+
+
 input[type="submit"] {
     font-size: .9em;
     color: #fff;
@@ -225,6 +227,25 @@ input[type="submit"]:hover {
     transition: .5s all;
     background: #3EB060;
 }
+
+.input-container input{
+    background-color: #121212bd;
+    border-radius: 5px;
+}
+
+.input-container{
+    position: relative;
+
+}
+
+.input-container i{
+    position: relative;
+    left: 15px;
+    top: -30px;
+    color: white;
+}
+
+
 
 .agileits-top p {
     font-size: 1em;

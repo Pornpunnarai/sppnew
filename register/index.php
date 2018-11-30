@@ -14,22 +14,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <style>
-    .input-container input{
-        background-color: #121212bd;
-        border-radius: 5px;
-    }
-
-    .input-container{
-        position: relative;
-
-    }
-
-    .input-container i{
-        position: relative;
-        left: 15px;
-        top: -30px;
-        color: white;
-    }
 
 </style>
 <body>
@@ -58,10 +42,13 @@
 <!--                        <span>Forget password ?</span>-->
 <!--                    </label>-->
 <!--                    <div class="clear"> </div>-->
-                    <a href="#" style="color: white">Forget password ?</a>
+                    <a href="application-form.php" style="color: white">Forget password ?</a>
                 </div>
 
-                <input type="submit" value="SIGN IN">
+                <a href="application-form.php">
+                    <input type="submit" value="SIGN IN">
+                </a>
+
             </form>
             <p>Get New Account ...<a href="register.php" style="color: #04B1DC"><b>SIGN UP</b></a></p>
         </div>
