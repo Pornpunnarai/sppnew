@@ -4,8 +4,17 @@
     <title>Spp - Master's Program </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- //web font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <style>
         /*custom font*/
@@ -18,13 +27,15 @@
         }
 
         html {
-            height: 100%;
-            background: #6441A5; /* fallback for old browsers */
-            background: -webkit-linear-gradient(to left, #6441A5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+            background-image: url(../img/Desktop-Background/Register.png);
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
         }
 
         body {
-            font-family: montserrat, arial, verdana;
+
+            font-family: lato-regular, lato-light;
             background: transparent;
         }
 
@@ -36,7 +47,7 @@
         }
 
         #msform fieldset {
-            background: white;
+            background: #ffffff00;
             border: 0 none;
             border-radius: 0px;
             box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
@@ -56,22 +67,34 @@
 
         /*inputs*/
         #msform input, #msform textarea {
-            padding: 15px;
             border: 1px solid #ccc;
-            border-radius: 0px;
+            border-radius: 5px;
             margin-bottom: 10px;
             width: 100%;
             box-sizing: border-box;
-            font-family: montserrat;
-            color: #2C3E50;
-            font-size: 13px;
+            font-size: 0.9em;
+            font-weight: 100;
+            padding: 0.3em;
+            border: solid 1px rgba(255, 255, 255, 0.37);
+            -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+            transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+            background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+            background-position: -800px 0;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: lato-light;
+            background-color: #121212bd;
+            margin-right: 10px;
+            padding: 0.8em;
         }
 
         #msform input:focus, #msform textarea:focus {
             -moz-box-shadow: none !important;
             -webkit-box-shadow: none !important;
             box-shadow: none !important;
-            border: 1px solid #ee0979;
+            border: 1px solid #04B1DC;
             outline-width: 0;
             transition: All 0.5s ease-in;
             -webkit-transition: All 0.5s ease-in;
@@ -82,18 +105,18 @@
         /*buttons*/
         #msform .action-button {
             width: 100px;
-            background: #ee0979;
+            background: #3EB060;
             font-weight: bold;
             color: white;
             border: 0 none;
-            border-radius: 25px;
+            border-radius: 10px;
             cursor: pointer;
             padding: 10px 5px;
             margin: 10px 5px;
         }
 
         #msform .action-button:hover, #msform .action-button:focus {
-            box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+            box-shadow: 0 0 0 2px white, 0 0 0 3px #04B1DC;
         }
 
         #msform .action-button-previous {
@@ -142,7 +165,7 @@
             color: white;
             text-transform: uppercase;
             font-size: 9px;
-            width: 33.33%;
+            width: 14%;
             float: left;
             position: relative;
             letter-spacing: 1px;
@@ -182,20 +205,14 @@
         /*marking active/completed steps green*/
         /*The number of the step and the connector before it = green*/
         #progressbar li.active:before, #progressbar li.active:after {
-            background: #ee0979;
+            background: #04B1DC;
             color: white;
         }
 
-
-        /* Not relevant to this form */
-        .dme_link {
-            margin-top: 30px;
-            text-align: center;
-        }
         .dme_link a {
             background: #FFF;
             font-weight: bold;
-            color: #ee0979;
+            color: #04B1DC;
             border: 0 none;
             border-radius: 25px;
             cursor: pointer;
@@ -207,30 +224,216 @@
             background: #C5C5F1;
             text-decoration: none;
         }
+
+
+        #title{
+            font-size: 0.9em;
+            color: #fff;
+            font-weight: 100;
+            padding: 0.4em;
+            border: solid 1px rgba(255, 255, 255, 0.37);
+            -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+            transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+            background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+            background-position: -800px 0;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: lato-light;
+            background-color: #121212bd;
+            border-radius: 25px;
+        }
+
+
+        .col-lg-4{
+            text-align: right;
+            color: white;
+            margin-top: 10px;
+        }
+
+        #female{
+            background-color: #04B1DC;
+        }
     </style>
 </head>
 <body>
 <!-- main -->
-
+<!-- MultiStep Form -->
 <div class="main wrapper" style="background: rgba(0, 0, 0, 0.6); height: 100vh;">
-
-    <!-- MultiStep Form -->
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-lg-6 col-md-6 col-md-offset-3">
             <form id="msform">
                 <!-- progressbar -->
                 <ul id="progressbar">
                     <li class="active">Personal Details</li>
                     <li>Social Profiles</li>
+                    <li>Social Profiles</li>
+                    <li>Social Profiles</li>
+                    <li>Social Profiles</li>
+                    <li>Social Profiles</li>
                     <li>Account Setup</li>
                 </ul>
                 <!-- fieldsets -->
                 <fieldset>
-                    <h2 class="fs-title">Personal Details</h2>
-                    <h3 class="fs-subtitle">Tell us something more about you</h3>
-                    <input type="text" name="fname" placeholder="First Name"/>
-                    <input type="text" name="lname" placeholder="Last Name"/>
-                    <input type="text" name="phone" placeholder="Phone"/>
+
+                    <div class="input-container" style="    margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                Gender
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-3" id="title">
+                                    <a href="#" style="color: white;"><b>Miss</b></a>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>Mrs.</b></a>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>Mr.</b></a>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>Ms.</b></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                First / Given Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" placeholder="First name" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                Middle Name ( if any )
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="email" name="email" placeholder="Your Email Address" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                Last / Family Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="password" name="password" placeholder="Use 8 or more characters with a mix of letters, numbers & symbols" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                Date of birth
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="date" name="dob" placeholder="DD/MM/YYYY" required="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                Country of Birth
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="password" name="confirmpassword" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                City of Birth
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="nationality" required="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                Citizenship
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="nationality" required="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                County of Permanent Residence
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="nationality" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="button"  style="float: right;" name="next" class="next action-button" value="Next"/>
+                </fieldset>
+
+
+                <fieldset>
+                    <h2 class="fs-title">Social Profiles</h2>
+                    <h3 class="fs-subtitle">Your presence on the social network</h3>
+                    <input type="text" name="twitter" placeholder="Twitter"/>
+                    <input type="text" name="facebook" placeholder="Facebook"/>
+                    <input type="text" name="gplus" placeholder="Google Plus"/>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Social Profiles</h2>
+                    <h3 class="fs-subtitle">Your presence on the social network</h3>
+                    <input type="text" name="twitter" placeholder="Twitter"/>
+                    <input type="text" name="facebook" placeholder="Facebook"/>
+                    <input type="text" name="gplus" placeholder="Google Plus"/>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Social Profiles</h2>
+                    <h3 class="fs-subtitle">Your presence on the social network</h3>
+                    <input type="text" name="twitter" placeholder="Twitter"/>
+                    <input type="text" name="facebook" placeholder="Facebook"/>
+                    <input type="text" name="gplus" placeholder="Google Plus"/>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Social Profiles</h2>
+                    <h3 class="fs-subtitle">Your presence on the social network</h3>
+                    <input type="text" name="twitter" placeholder="Twitter"/>
+                    <input type="text" name="facebook" placeholder="Facebook"/>
+                    <input type="text" name="gplus" placeholder="Google Plus"/>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="button" name="next" class="next action-button" value="Next"/>
                 </fieldset>
                 <fieldset>
@@ -251,19 +454,22 @@
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="submit" name="submit" class="submit action-button" value="Submit"/>
                 </fieldset>
+
             </form>
-            <!-- link to designify.me code snippets -->
-            <div class="dme_link">
-                <p><a href="http://designify.me/code-snippets-js/" target="_blank">More Code Snippets</a></p>
-            </div>
-            <!-- /.link to designify.me code snippets -->
+
+
         </div>
     </div>
-    <!-- /.MultiStep Form -->
-
 </div>
+<!-- /.MultiStep Form -->
+
+<script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 <script>
+
 
     //jQuery time
     var current_fs, next_fs, previous_fs; //fieldsets
