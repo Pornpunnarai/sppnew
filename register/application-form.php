@@ -57,7 +57,7 @@
             margin: 0 10%;
 
             /*stacking fieldsets above each other*/
-            position: relative;
+            position: absolute;
         }
 
         /*Hide all except first fieldset*/
@@ -97,7 +97,7 @@
             border: 1px solid #04B1DC;
             outline-width: 0;
             transition: All 0.5s ease-in;
-            -webkit-transition: All 0.5s ease-in;
+            -webkit-transition: All  0.5s ease-in;
             -moz-transition: All 0.5s ease-in;
             -o-transition: All 0.5s ease-in;
         }
@@ -165,7 +165,7 @@
             color: white;
             text-transform: uppercase;
             font-size: 9px;
-            width: 14%;
+            width: 9%;
             float: left;
             position: relative;
             letter-spacing: 1px;
@@ -246,15 +246,17 @@
         }
 
 
-        .col-lg-4{
+        .text-box{
             text-align: right;
             color: white;
             margin-top: 10px;
         }
 
-        #female{
-            background-color: #04B1DC;
+        #msform .action-button {
+            margin: 10px 65px;
+            float: right;
         }
+
     </style>
 </head>
 <body>
@@ -262,24 +264,33 @@
 <!-- MultiStep Form -->
 <div class="main wrapper" style="background: rgba(0, 0, 0, 0.6); height: 100vh;">
     <div class="row">
+
         <div class="col-lg-6 col-md-6 col-md-offset-3">
+            <div class="row">
+                <p style="text-align: center; padding-top: 5rem;"><img src="../img/logo.png" width="20%"></p><br>
+                <p style="font-family: lato-bold; font-size: 24px; color: white;text-align: center;">Application form for Master of Arts in Public Policy degree program</p>
+            </div>
             <form id="msform">
                 <!-- progressbar -->
                 <ul id="progressbar">
                     <li class="active">Personal Details</li>
-                    <li>Social Profiles</li>
-                    <li>Social Profiles</li>
-                    <li>Social Profiles</li>
-                    <li>Social Profiles</li>
-                    <li>Social Profiles</li>
-                    <li>Account Setup</li>
+                    <li>Contact Details</li>
+                    <li>Emergency Contact</li>
+                    <li>MOTIVATION LETTER</li>
+                    <li>ACADEMIC QUALIFICATION</li>
+                    <li>ACADEMIC QUALIFICATION (Cont.)</li>
+                    <li>GMAT Details</li>
+                    <li>GRE Details</li>
+                    <li>PROFESSIONAL EXPERIENCE</li>
+                    <li>REFEREES</li>
+                    <li>SUBMISSION</li>
+
                 </ul>
                 <!-- fieldsets -->
                 <fieldset>
-
-                    <div class="input-container" style="    margin-bottom: 10px;">
+                    <div class="input-container" style="margin-bottom: 10px;">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 Gender
                             </div>
                             <div class="col-lg-8">
@@ -306,11 +317,11 @@
 
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 First / Given Name
                             </div>
                             <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" placeholder="First name" required="">
+                                <input class="text" type="text" name="firstname" required="">
                             </div>
                         </div>
 
@@ -318,29 +329,29 @@
 
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 Middle Name ( if any )
                             </div>
                             <div class="col-lg-8">
-                                <input class="text" type="email" name="email" placeholder="Your Email Address" required="">
+                                <input class="text" type="text" name="middlename" required="">
                             </div>
                         </div>
                     </div>
 
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 Last / Family Name
                             </div>
                             <div class="col-lg-8">
-                                <input class="text" type="password" name="password" placeholder="Use 8 or more characters with a mix of letters, numbers & symbols" required="">
+                                <input class="text" type="text" name="familyname" required="">
                             </div>
                         </div>
                     </div>
 
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 Date of birth
                             </div>
                             <div class="col-lg-8">
@@ -349,45 +360,42 @@
                         </div>
                     </div>
 
-
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 Country of Birth
                             </div>
                             <div class="col-lg-8">
-                                <input class="text" type="password" name="confirmpassword" required="">
+                                <input class="text" type="text" name="conutryofbirth" required="">
                             </div>
                         </div>
                     </div>
 
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 City of Birth
                             </div>
                             <div class="col-lg-8">
-                                <input class="text" type="text" name="nationality" required="">
+                                <input class="text" type="text" name="cityofbirth" required="">
                             </div>
                         </div>
                     </div>
 
-
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 Citizenship
                             </div>
                             <div class="col-lg-8">
-                                <input class="text" type="text" name="nationality" required="">
+                                <input class="text" type="text" name="citizenship" required="">
                             </div>
                         </div>
                     </div>
 
-
                     <div class="input-container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-3 text-box">
                                 County of Permanent Residence
                             </div>
                             <div class="col-lg-8">
@@ -396,69 +404,1030 @@
                         </div>
                     </div>
 
-                    <input type="button"  style="float: right;" name="next" class="next action-button" value="Next"/>
+                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 100%; margin-top: -30vh;">
+                        <p style="font-family: lato-bold; font-size: 24px;color: white;">Photocory of<br>Thai National or Passport<br>
+                            <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">+Add file</button>
+                            <small style="font-style: italic; font-size: 11px; font-family: lato-light;">Please insert file format PDF, MS Word Doc, JPEG, PNG. Limits file size : 20 MB</small>
+                        </p>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">PERSONAL DETAILS</p>
+                    </div>
+
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+
                 </fieldset>
 
+                <fieldset>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Address Line 1
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Address Line 2
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="middlename" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                State/Province
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                            <div class="col-lg-2 text-box">
+                                Postcode
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Country
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="date" name="dob" placeholder="DD/MM/YYYY" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Phone 1
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                            <div class="col-lg-2 text-box">
+                                Phone 2
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container" style="    margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Do you want to add a correspondence address
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>YES</b></a>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>NO</b></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Please provide details
+                            </div>
+                            <div class="col-lg-8" style="text-align: left">
+                                <input class="text" type="text" name="cityofbirth" required="">
+                                    <p><a style="color: white;">Emergency Contact -></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 50%; margin-top: -30vh;">
+                        <small style="font-style: italic; font-size: 11px; font-family: lato-light; color: white">
+                            Please provide the address of your permanent residence.<br>
+                            If your correspondence/ mailing address is different from the <br>
+                            permanent address during the period of the admissions process (Jan-July 2018), <br>
+                            please provide your correspondence address as well.</small>
+
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            CONTACT DETAILS</p>
+                    </div>
+
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+
+                </fieldset>
 
                 <fieldset>
-                    <h2 class="fs-title">Social Profiles</h2>
-                    <h3 class="fs-subtitle">Your presence on the social network</h3>
-                    <input type="text" name="twitter" placeholder="Twitter"/>
-                    <input type="text" name="facebook" placeholder="Facebook"/>
-                    <input type="text" name="gplus" placeholder="Google Plus"/>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                First / Given Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Last / Family Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Phone
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Email Address
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -25vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            EMERYGENCY CONTACT</p>
+                    </div>
+
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="button" name="next" class="next action-button" value="Next"/>
+
+
                 </fieldset>
+
                 <fieldset>
-                    <h2 class="fs-title">Social Profiles</h2>
-                    <h3 class="fs-subtitle">Your presence on the social network</h3>
-                    <input type="text" name="twitter" placeholder="Twitter"/>
-                    <input type="text" name="facebook" placeholder="Facebook"/>
-                    <input type="text" name="gplus" placeholder="Google Plus"/>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-11 text-box" style="text-align: left">
+                                Please tell us why you choose  a Public Policy Program ?
+                            </div>
+                            <div class="col-lg-11">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="text-align: left">
+                        <div class="col-lg-11">
+                            <p style="font-family: lato-bold; font-size: 24px;color: white;">Curriculum vitae<br>
+                                <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">+Add file</button>
+                                <small style="font-style: italic; font-size: 11px; font-family: lato-light;">Please insert file format PDF, MS Word Doc, JPEG, PNG. Limits file size : 20 MB</small>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -25vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            MOTIVATION LETTER</p>
+                    </div>
+
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+
+                    <p style="font-style: italic; font-size: 14px; font-family: lato-light; color: white;">
+                            It should be around 500 - 1,000 words in length, covering your skills,
+                            experiences relevant to field of public policy, your ambitions,
+                            motivations and interest in the public policy program
+                    </p>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Institution / School / College
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                City / Country
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="middlename" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container" style="    margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Select Qualification
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-3">
+                                    <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                        Bachelor’s
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Subject
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Thesis Title ( if applicable )
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container" style="    margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Thesis abstract file
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-3">
+                                    <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                        +Add file
+                                    </button>
+                                </div>
+                                <div class="col-lg-8">
+                                    <small style="font-style: italic; color: white">Please insert file format PDF, MS Word Doc, JPEG, PNG</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="input-container" style="    margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Academic certificates
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-3">
+                                    <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                        +Add file
+                                    </button>
+                                </div>
+
+                                <div class="col-lg-8">
+                                    <small style="font-style: italic; color: white">Please insert file format PDF, MS Word Doc, JPEG, PNG</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Start Date
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-4">
+                                    <input class="text" type="text" name="conutryofbirth" required="">
+                                </div>
+                                <div class="col-lg-4 text-box">
+                                    End Date<small style="font-style: italic">(Expected) </small>
+                                </div>
+                                <div class="col-lg-4">
+                                    <input class="text" type="text" name="conutryofbirth" required="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Graduation Date<small style="font-style: italic">(Expected) </small>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-4">
+                                    <input class="text" type="text" name="conutryofbirth" required="">
+                                </div>
+                                <div class="col-lg-4 text-box">
+                                    Official Duration
+                                </div>
+                                <div class="col-lg-4">
+                                    <input class="text" type="text" name="conutryofbirth" placeholder="Year" required="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 100%; margin-top: -30vh;">
+                        <p style="font-family: lato-bold; font-size: 24px;color: white;">
+                            <button class="btn btn-primary" style="background-color: #121212bd; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                Qualifications 1
+                            </button>
+
+                            <button class="btn btn-primary" style="background-color: #121212bd; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                Qualifications 2
+                            </button>
+
+
+                            <button class="btn btn-primary" style="background-color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                Qualifications 3
+                            </button>
+
+                            <button class="btn btn-primary" style="background-color: #F15C2B; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                + Qualifications
+                            </button>
+                        </p>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 100%; margin-top: -40vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">ACADEMIC QUALIFICATION</p>
+                    </div>
+
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+
+                    <p style="font-style: italic; font-size: 14px; font-family: lato-light; color: white;">
+                        Please provide details and attach the degree certificate/diploma
+                        as well as transcript of the relevant previous degree(s) you obtained, starting with the most recent one.
+                    </p>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <div class="input-container" style="margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Is English your first language?
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>YES</b></a>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>NO</b></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container" style="margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-5 text-box">
+                                Have you earned a Bachelors or Masters degree taught exclusively in English?
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>YES</b></a>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>NO</b></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="input-container" style="margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Do you hold an English language qualification?
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>YES</b></a>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-2" id="title">
+                                    <a href="#" style="color: white;"><b>NO</b></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="input-container" style="margin-top: 10px;margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-2 text-box">
+                                English Qualification
+                            </div>
+                            <div class="col-lg-10">
+                                <div class="col-lg-6">
+                                    <label class="">TOEFL (internet-based)
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label class="">TOEFL (paper-based)
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label class="">TEGS
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label class="">TOEFL (computer-based)
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label class="">IELTS
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label class="">Other ( please provide details )
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="col-lg-6 text-box">
+                                        Score
+                                </div>
+                                    <div class="col-lg-6">
+                                        <input class="text" type="text" name="conutryofbirth" placeholder="Year" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="col-lg-6 text-box">
+                                        Date completed
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input class="text" type="text" name="conutryofbirth" placeholder="Year" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12" style="margin-bottom: 10px;margin-top: 10px;">
+                                    <div class="col-lg-4 text-box">
+                                        Certified proficiency
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                            +Add file
+                                        </button>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <small style="font-style: italic; color: white">Please insert file format PDF, MS Word Doc, JPEG, PNG<br>Limits file size : 20 MB</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="input-container" style="margin-top: 10px;margin-bottom: 10px;">
+                        <div class="row">
+                            <div class="col-lg-4 text-box">
+                                GMAT Details (if applicable)
+                            </div>
+                            <div class="col-lg-2">
+                                <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                    +Add
+                                </button>
+                            </div>
+                            <div class="col-lg-4 text-box">
+                                GRE Details (if applicable)
+                            </div>
+                            <div class="col-lg-2">
+                                <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                    +Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 60%; margin-top: -30vh;">
+                        <p style="font-family: lato-bold; font-size: 14px;color: white; font-style: italic">
+                            awarded within the last 2 years: choices are between TOEFL (500 points for paper based; 173 computer based; 61 iBT),  IELTS (score 5.5), or TEGS (at least 65).
+                            This is not necessary for native English speakers or students who have had English as language of instruction at the university they previously studied at (certified by the university).
+
+                        </p>
+                    </div>
+
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 100%; margin-top: -40vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">ACADEMIC QUALIFICATION</p>
+                    </div>
+
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="button" name="next" class="next action-button" value="Next"/>
+
                 </fieldset>
+
                 <fieldset>
-                    <h2 class="fs-title">Social Profiles</h2>
-                    <h3 class="fs-subtitle">Your presence on the social network</h3>
-                    <input type="text" name="twitter" placeholder="Twitter"/>
-                    <input type="text" name="facebook" placeholder="Facebook"/>
-                    <input type="text" name="gplus" placeholder="Google Plus"/>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Date Completed
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Verbal
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Total score
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Analytical Wrtiting
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Integrated Reasoning
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 100%; margin-top: -25vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            GMAT DETAILS
+                        </p>
+                    </div>
+
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="button" name="next" class="next action-button" value="Next"/>
+
                 </fieldset>
+
                 <fieldset>
-                    <h2 class="fs-title">Social Profiles</h2>
-                    <h3 class="fs-subtitle">Your presence on the social network</h3>
-                    <input type="text" name="twitter" placeholder="Twitter"/>
-                    <input type="text" name="facebook" placeholder="Facebook"/>
-                    <input type="text" name="gplus" placeholder="Google Plus"/>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Date Completed
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Verbal
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Analytical Writing
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Quantitative
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -25vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            GRE DETAILS
+                        </p>
+                    </div>
+
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="button" name="next" class="next action-button" value="Next"/>
+
                 </fieldset>
+
                 <fieldset>
-                    <h2 class="fs-title">Social Profiles</h2>
-                    <h3 class="fs-subtitle">Your presence on the social network</h3>
-                    <input type="text" name="twitter" placeholder="Twitter"/>
-                    <input type="text" name="facebook" placeholder="Facebook"/>
-                    <input type="text" name="gplus" placeholder="Google Plus"/>
+
+                    <p>Experience: 1 </p>
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Employer/ Organization Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Location of work is based in
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                            <div class="col-lg-2 text-box">
+                                Job Title:
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Job Description
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Start Date
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                            <div class="col-lg-2 text-box">
+                                End Date<br><small style="font-style: italic; font-size: 11px; font-family: lato-light; color: white">(if applicable)</small>
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="text" type="text" name="familyname" required="">
+                            </div>
+                            <div class="col-lg-3 col-md-offset-3">
+                                <button class="btn btn-primary" style="background-color: #121212bd;
+                                font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;margin-bottom: 10px;">
+                                    experience 1
+                                </button>
+
+                                <button class="btn btn-primary" style="color: #04B1DC;
+                                font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
+                                    + Add experience 2
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 50%; margin-top: -20vh;">
+                        <small style="font-style: italic; font-size: 14px; font-family: lato-light; color: white">
+                            In this section you may list current and/or previous employments, internships, volunteer positions relevant to your application.</small>
+
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            PROFESSIONAL EXPERIENCE</p>
+                    </div>
+
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+
+                    <p style="font-style: italic; font-size: 14px; font-family: lato-light; color: white;">
+                        Please attach a copy of your CV/resume (including publication list if applicable)
+                    </p>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-11">
+                                <p style="text-align: center">Referee 1 </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Title
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                First / Given Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Last / Family Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Position
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Institution / Company
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Email Address
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Country
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Telephone number
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 50%; margin-top: -20vh;">
+                        <small style="font-style: italic; font-size: 14px; font-family: lato-light; color: white">
+                            Please provide details of your reference(s). Two letters of recommendations have to be sent to us at
+                            to chirada.na@cmu.ac.th and cc: spp@cmu.ac.th
+                            separately by your referees.
+                        </small>
+                    </div>
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            REFEREES
+                        </p>
+                    </div>
+
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="button" name="next" class="next action-button" value="Next"/>
+
                 </fieldset>
+
                 <fieldset>
-                    <h2 class="fs-title">Create your account</h2>
-                    <h3 class="fs-subtitle">Fill in your credentials</h3>
-                    <input type="text" name="email" placeholder="Email"/>
-                    <input type="password" name="pass" placeholder="Password"/>
-                    <input type="password" name="cpass" placeholder="Confirm Password"/>
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Source of funding
+                            </div>
+                            <div class="col-lg-8" style="color: white">
+                                <div class="col-lg-4">
+                                    Individual Funding Resources
+                                </div>
+                                <div class="col-lg-2">
+                                    <input class="text" type="text" name="firstname" required="">
+                                </div>
+                                <div class="col-lg-1">
+                                    %
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-1 text-box">
+                            </div>
+                            <div class="col-lg-11">
+                                <div class="col-lg-8" style="color: white;">
+                                    Do you consider to apply for funding other than CMU Financial Aid
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="col-lg-4" id="title">
+                                        <a href="#" style="color: white;"><b>YES</b></a>
+                                    </div>
+                                    <div class="col-lg-1"></div>
+                                    <div class="col-lg-4" id="title">
+                                        <a href="#" style="color: white;"><b>NO</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                First / Given Name
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                Please provide details:
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                How did you hear about CMU School of Public Policy?
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="input-container">
+                        <div class="row">
+                            <div class="col-lg-3 text-box">
+                                What do you find most attractive about CMU?
+                            </div>
+                            <div class="col-lg-8">
+                                <input class="text" type="text" name="firstname" required="">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
+                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
+                            SUBMISSION
+                        </p>
+                    </div>
+
                     <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
                     <input type="submit" name="submit" class="submit action-button" value="Submit"/>
+
                 </fieldset>
 
             </form>
 
 
         </div>
+
     </div>
 </div>
 <!-- /.MultiStep Form -->
@@ -472,86 +1441,98 @@
 
 
     //jQuery time
-    var current_fs, next_fs, previous_fs; //fieldsets
-    var left, opacity, scale; //fieldset properties which we will animate
-    var animating; //flag to prevent quick multi-click glitches
+    (function($) {
+        var current_fs, next_fs, previous_fs; //fieldsets
+        var left, opacity, scale; //fieldset properties which we will animate
+        var animating; //flag to prevent quick multi-click glitches
 
-    $(".next").click(function(){
-        if(animating) return false;
-        animating = true;
+        $(".next").click(function() {
+            if (animating) return false;
+            animating = true;
 
-        current_fs = $(this).parent();
-        next_fs = $(this).parent().next();
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
 
-        //activate next step on progressbar using the index of next_fs
-        $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+            //activate next step on progressbar using the index of next_fs
+            $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
 
-        //show the next fieldset
-        next_fs.show();
-        //hide the current fieldset with style
-        current_fs.animate({opacity: 0}, {
-            step: function(now, mx) {
-                //as the opacity of current_fs reduces to 0 - stored in "now"
-                //1. scale current_fs down to 80%
-                scale = 1 - (1 - now) * 0.2;
-                //2. bring next_fs from the right(50%)
-                left = (now * 50)+"%";
-                //3. increase opacity of next_fs to 1 as it moves in
-                opacity = 1 - now;
-                current_fs.css({
-                    'transform': 'scale('+scale+')',
-                    'position': 'absolute'
-                });
-                next_fs.css({'left': left, 'opacity': opacity});
-            },
-            duration: 800,
-            complete: function(){
-                current_fs.hide();
-                animating = false;
-            },
-            //this comes from the custom easing plugin
-            easing: 'easeInOutBack'
+            //show the next fieldset
+            next_fs.show();
+            //hide the current fieldset with style
+            current_fs.animate({
+                opacity: 0
+            }, {
+                step: function(now, mx) {
+                    //as the opacity of current_fs reduces to 0 - stored in "now"
+                    //1. scale current_fs down to 80%
+                    scale = 1 - (1 - now) * 0.2;
+                    //2. bring next_fs from the right(50%)
+                    left = (now * 50) + "%";
+                    //3. increase opacity of next_fs to 1 as it moves in
+                    opacity = 1 - now;
+                    current_fs.css({
+                        'transform': 'scale(' + scale + ')'
+                    });
+                    next_fs.css({
+                        'left': left,
+                        'opacity': opacity
+                    });
+                },
+                duration: 800,
+                complete: function() {
+                    current_fs.hide();
+                    animating = false;
+                },
+                //this comes from the custom easing plugin
+                easing: 'easeInOutBack'
+            });
         });
-    });
 
-    $(".previous").click(function(){
-        if(animating) return false;
-        animating = true;
+        $(".previous").click(function() {
+            if (animating) return false;
+            animating = true;
 
-        current_fs = $(this).parent();
-        previous_fs = $(this).parent().prev();
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
 
-        //de-activate current step on progressbar
-        $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+            //de-activate current step on progressbar
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
 
-        //show the previous fieldset
-        previous_fs.show();
-        //hide the current fieldset with style
-        current_fs.animate({opacity: 0}, {
-            step: function(now, mx) {
-                //as the opacity of current_fs reduces to 0 - stored in "now"
-                //1. scale previous_fs from 80% to 100%
-                scale = 0.8 + (1 - now) * 0.2;
-                //2. take current_fs to the right(50%) - from 0%
-                left = ((1-now) * 50)+"%";
-                //3. increase opacity of previous_fs to 1 as it moves in
-                opacity = 1 - now;
-                current_fs.css({'left': left});
-                previous_fs.css({'transform': 'scale('+scale+')', 'opacity': opacity});
-            },
-            duration: 800,
-            complete: function(){
-                current_fs.hide();
-                animating = false;
-            },
-            //this comes from the custom easing plugin
-            easing: 'easeInOutBack'
+            //show the previous fieldset
+            previous_fs.show();
+            //hide the current fieldset with style
+            current_fs.animate({
+                opacity: 0
+            }, {
+                step: function(now, mx) {
+                    //as the opacity of current_fs reduces to 0 - stored in "now"
+                    //1. scale previous_fs from 80% to 100%
+                    scale = 0.8 + (1 - now) * 0.2;
+                    //2. take current_fs to the right(50%) - from 0%
+                    left = ((1 - now) * 50) + "%";
+                    //3. increase opacity of previous_fs to 1 as it moves in
+                    opacity = 1 - now;
+                    current_fs.css({
+                        'left': left
+                    });
+                    previous_fs.css({
+                        'transform': 'scale(' + scale + ')',
+                        'opacity': opacity
+                    });
+                },
+                duration: 800,
+                complete: function() {
+                    current_fs.hide();
+                    animating = false;
+                },
+                //this comes from the custom easing plugin
+                easing: 'easeInOutBack'
+            });
         });
-    });
 
-    $(".submit").click(function(){
-        return false;
-    })
+    })(jQuery);
+
+
 </script>
 <!-- //main -->
 </body>
