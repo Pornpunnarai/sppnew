@@ -85,7 +85,7 @@
             </div>
 
 
-            <form action="#">
+            <form >
 
                 <div class="input-container">
                     <div class="row">
@@ -116,13 +116,13 @@
                             Gender
                         </div>
                         <div class="col-lg-8">
-                                <button class="col-lg-3" id="male" onclick="gender('Male')">
+                                <button class="col-lg-3" id="male" onclick="gender_answer('Male')">
                                     <p style="color: white;"><b>Male</b></p>
                                 </button>
-                            <button class="col-lg-3" id="female" onclick="gender('Female')">
+                            <button class="col-lg-3" id="female" onclick="gender_answer('Female')">
                                 <p style="color: white;"><b>Female</b></p>
                             </button>
-                            <button class="col-lg-3" id="rainbow" onclick="gender('LGBT')">
+                            <button class="col-lg-3" id="rainbow" onclick="gender_answer('LGBT')">
                                 <p style="color: white;"><b>LGBT</b></p>
                             </button>
 <!--                            <button class="col-lg-3" id="rainbow_selected" style="visibility:hidden" onclick="gender('LGBT')">-->
@@ -228,9 +228,9 @@
 </script>
 
 <script>
-    var gender_answer = null;
-    function gender(answer) {
-        gender_answer = answer;
+    var gender = null;
+    function gender_answer(answer) {
+        gender = answer;
         if(answer=="Male"){
     document.getElementById("male").style = "background-color: #04B1DC;";
             document.getElementById("female").style = "";
@@ -257,6 +257,7 @@
 
 
     function send_data(){
+
         var firstname = document.getElementById("firstname").value;
         var lastname = document.getElementById("lastname").value;
 
@@ -266,26 +267,26 @@
         var dob = document.getElementById("dob").value;
 
         var student_account = { "student_account": [
-                { "firstname": firstname},
-                { "lastname": lastname},
-                { "gender": gender},
-                { "email": email},
-                { "password": password},
-                { "nationality": nationality},
-                { "dob": dob}
+                { "firstname": firstname,
+                 "lastname": lastname,
+                 "gender": gender,
+                 "email": email,
+                 "password": password,
+                 "nationality": nationality,
+                 "dob": dob}
             ]};
+// console.log(JSON.stringify(student_account));
 
-        console.log(document.getElementById("firstname").value);
-    // $.ajax({
-    //     type: 'POST',
-    //     url: 'check-add.php',
-    //     data: student_account,
-    //     contentType: "application/json; charset=utf-8",
-    //     dataType: "json",
-    //     success: function(msg){
-    //         // alert('wow' + msg);
-    //     }
-    // });
+    $.ajax({
+        type: 'POST',
+        url: 'check-add.php',
+        data: JSON.stringify(student_account),
+        contentType: 'application/json',
+        success: function(msg){
+           console.log(msg);
+        }
+
+    });
     }
 
 
@@ -306,3 +307,5 @@
 </script>
 </body>
 </html>
+
+<?php

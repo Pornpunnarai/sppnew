@@ -226,7 +226,7 @@
         }
 
 
-        #title{
+        #title,#Miss,#Mrs,#Mr,#Ms{
             font-size: 0.9em;
             color: #fff;
             font-weight: 100;
@@ -287,137 +287,139 @@
 
                 </ul>
                 <!-- fieldsets -->
-                <fieldset>
-                    <div class="input-container" style="margin-bottom: 10px;">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Gender
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="col-lg-3" id="title">
-                                    <a href="#" style="color: white;"><b>Miss</b></a>
-                                </div>
-                                <div class="col-lg-1"></div>
-                                <div class="col-lg-2" id="title">
-                                    <a href="#" style="color: white;"><b>Mrs.</b></a>
-                                </div>
-                                <div class="col-lg-1"></div>
-                                <div class="col-lg-2" id="title">
-                                    <a href="#" style="color: white;"><b>Mr.</b></a>
-                                </div>
-                                <div class="col-lg-1"></div>
-                                <div class="col-lg-2" id="title">
-                                    <a href="#" style="color: white;"><b>Ms.</b></a>
-                                </div>
-                            </div>
+<!--                <fieldset>-->
+<!--                    <div class="input-container" style="margin-bottom: 10px;">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                Title-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <div class="col-lg-3" id="title">-->
+<!--                                    <a href="#" style="color: white;"><b>Miss</b></a>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-1"></div>-->
+<!--                                <div class="col-lg-2" id="title">-->
+<!--                                    <a href="#" style="color: white;"><b>Mrs.</b></a>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-1"></div>-->
+<!--                                <div class="col-lg-2" id="title">-->
+<!--                                    <a href="#" style="color: white;"><b>Mr.</b></a>-->
+<!--                                </div>-->
+<!--                                <div class="col-lg-1"></div>-->
+<!--                                <div class="col-lg-2" id="title">-->
+<!--                                    <a href="#" style="color: white;"><b>Ms.</b></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                First / Given Name-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="text" name="firstname" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                Middle Name ( if any )-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="text" name="middlename" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                Last / Family Name-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="text" name="familyname" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                Date of birth-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="date" name="dob" placeholder="DD/MM/YYYY" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                Country of Birth-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="text" name="conutryofbirth" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                City of Birth-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="text" name="cityofbirth" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                Citizenship-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="text" name="citizenship" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="input-container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-3 text-box">-->
+<!--                                County of Permanent Residence-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <input class="text" type="text" name="nationality" required="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 100%; margin-top: -30vh;">-->
+<!--                        <p style="font-family: lato-bold; font-size: 24px;color: white;">Photocory of<br>Thai National or Passport<br>-->
+<!--                            <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">+Add file</button>-->
+<!--                            <small style="font-style: italic; font-size: 11px; font-family: lato-light;">Please insert file format PDF, MS Word Doc, JPEG, PNG. Limits file size : 20 MB</small>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">-->
+<!--                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">PERSONAL DETAILS</p>-->
+<!--                    </div>-->
+<!---->
+<!--                    <input type="button" name="next" class="next action-button" value="Next"/>-->
+<!---->
+<!--                </fieldset>-->
 
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                First / Given Name
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Middle Name ( if any )
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="middlename" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Last / Family Name
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="familyname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Date of birth
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="date" name="dob" placeholder="DD/MM/YYYY" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Country of Birth
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="conutryofbirth" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                City of Birth
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="cityofbirth" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Citizenship
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="citizenship" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                County of Permanent Residence
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="nationality" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 100%; margin-top: -30vh;">
-                        <p style="font-family: lato-bold; font-size: 24px;color: white;">Photocory of<br>Thai National or Passport<br>
-                            <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">+Add file</button>
-                            <small style="font-style: italic; font-size: 11px; font-family: lato-light;">Please insert file format PDF, MS Word Doc, JPEG, PNG. Limits file size : 20 MB</small>
-                        </p>
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
-                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">PERSONAL DETAILS</p>
-                    </div>
-
-                    <input type="button" name="next" class="next action-button" value="Next"/>
-
-                </fieldset>
+                <?php include 'student_personal_details.php'?>
 
                 <fieldset>
 
@@ -1534,6 +1536,9 @@
 
 
 </script>
+
+
 <!-- //main -->
 </body>
 </html>
+
