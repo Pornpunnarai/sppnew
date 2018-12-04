@@ -59,9 +59,12 @@
             border: solid 1px initial;
 
         }
-        #female{
-            background-color: #04B1DC;
+        #rainbow_selected{
+        background-color: #04B1DC;
         }
+        /*#female{*/
+            /*background-color: #04B1DC;*/
+        /*}*/
 
     </style>
 </head>
@@ -82,7 +85,7 @@
             </div>
 
 
-            <form action="#" method="post">
+            <form action="#">
 
                 <div class="input-container">
                     <div class="row">
@@ -90,7 +93,7 @@
                             Name
                         </div>
                         <div class="col-lg-8">
-                            <input class="text" type="text" name="firstname" placeholder="First name" required="">
+                            <input class="text" type="text" id="firstname" placeholder="First name" required="">
                         </div>
                     </div>
 
@@ -101,7 +104,7 @@
                         <div class="col-lg-4">
                         </div>
                         <div class="col-lg-8">
-                            <input class="text" type="text" name="lastname" placeholder="Last name" required="">
+                            <input class="text" type="text" id="lastname" placeholder="Last name" required="">
                         </div>
                     </div>
 
@@ -113,15 +116,18 @@
                             Gender
                         </div>
                         <div class="col-lg-8">
-                            <div class="col-lg-3">
-                                <p><a href="#" style="color: white;"><b>Male</b></a></p>
-                            </div>
-                            <div class="col-lg-3" id="female">
-                                <p><a href="#" style="color: white;"><b>Female</b></a></p>
-                            </div>
-                            <div class="col-lg-3" id="rainbow">
-                                <p><a href="#" style="color: white;"><b>LGBT</b></a></p>
-                            </div>
+                                <button class="col-lg-3" id="male" onclick="gender('Male')">
+                                    <p style="color: white;"><b>Male</b></p>
+                                </button>
+                            <button class="col-lg-3" id="female" onclick="gender('Female')">
+                                <p style="color: white;"><b>Female</b></p>
+                            </button>
+                            <button class="col-lg-3" id="rainbow" onclick="gender('LGBT')">
+                                <p style="color: white;"><b>LGBT</b></p>
+                            </button>
+<!--                            <button class="col-lg-3" id="rainbow_selected" style="visibility:hidden" onclick="gender('LGBT')">-->
+<!--                                <p style="color: white;"><b>LGBT</b></p>-->
+<!--                            </button>-->
                         </div>
 
                     </div>
@@ -134,7 +140,7 @@
                             Email
                         </div>
                         <div class="col-lg-8">
-                            <input class="text" type="email" name="email" placeholder="Your Email Address" required="">
+                            <input class="text" type="email" id="email" placeholder="Your Email Address" required="">
                         </div>
                     </div>
 
@@ -146,7 +152,7 @@
                             Password
                         </div>
                         <div class="col-lg-8">
-                            <input class="text" type="password" name="password" placeholder="Use 8 or more characters with a mix of letters, numbers & symbols" required="">
+                            <input class="text" type="password" id="password" placeholder="Use 8 or more characters with a mix of letters, numbers & symbols" required="">
                         </div>
                     </div>
 
@@ -158,7 +164,7 @@
                             Confirm Password
                         </div>
                         <div class="col-lg-8">
-                            <input class="text" type="password" name="confirmpassword" required="">
+                            <input class="text" type="password" id="confirmpassword" required="">
                         </div>
                     </div>
 
@@ -170,7 +176,7 @@
                             Nationality
                         </div>
                         <div class="col-lg-8">
-                            <input class="text" type="text" name="nationality" required="">
+                            <input class="text" type="text" id="nationality" required="">
                         </div>
                     </div>
 
@@ -182,7 +188,7 @@
                             Date of birth
                         </div>
                         <div class="col-lg-8">
-                            <input class="text" type="date" name="dob" placeholder="DD/MM/YYYY" required="">
+                            <input class="text" type="date" id="dob" placeholder="DD/MM/YYYY" required="">
                         </div>
                     </div>
                 </div>
@@ -190,10 +196,12 @@
                 <div class="row">
                     <div class="col-lg-4"></div>
                     <div class="col-lg-8">
-                        <input class="text" type="submit" value="SIGN UP">
-                        <hr style="margin-top: 0px;">
+                        <button  onclick="send_data()">
+                            SIGN UP
+                        </button>
                     </div>
                 </div>
+
 
                 <div class="row">
                     <div class="col-lg-4"></div>
@@ -212,5 +220,89 @@
 
 </div>
 <!-- //main -->
+
+<!--<!-- Bootstrap core JavaScript-->-->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script>
+
+</script>
+
+<script>
+    var gender_answer = null;
+    function gender(answer) {
+        gender_answer = answer;
+        if(answer=="Male"){
+    document.getElementById("male").style = "background-color: #04B1DC;";
+            document.getElementById("female").style = "";
+            if(document.getElementById("rainbow_selected")!=null){
+                document.getElementById("rainbow_selected").id = "rainbow";
+            }
+
+        }
+        if(answer=="Female"){
+            document.getElementById("female").style = "background-color: #04B1DC;";
+            document.getElementById("male").style = "";
+            if(document.getElementById("rainbow_selected")!=null){
+                document.getElementById("rainbow_selected").id = "rainbow";
+            }
+        }
+        if(answer=="LGBT"){
+            document.getElementById("rainbow").id = "rainbow_selected";
+            document.getElementById("female").style = "";
+            document.getElementById("male").style = "";
+        }
+    }
+
+
+
+
+    function send_data(){
+        var firstname = document.getElementById("firstname").value;
+        var lastname = document.getElementById("lastname").value;
+
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var nationality = document.getElementById("nationality").value;
+        var dob = document.getElementById("dob").value;
+
+        var student_account = { "student_account": [
+                { "firstname": firstname},
+                { "lastname": lastname},
+                { "gender": gender},
+                { "email": email},
+                { "password": password},
+                { "nationality": nationality},
+                { "dob": dob}
+            ]};
+
+        console.log(document.getElementById("firstname").value);
+    // $.ajax({
+    //     type: 'POST',
+    //     url: 'check-add.php',
+    //     data: student_account,
+    //     contentType: "application/json; charset=utf-8",
+    //     dataType: "json",
+    //     success: function(msg){
+    //         // alert('wow' + msg);
+    //     }
+    // });
+    }
+
+
+
+    //
+    // var timeoutId;
+    // $('form input, form textarea').on('input propertychange change', function() {
+    //     console.log('Textarea Change');
+    //
+    //
+    //
+    //     clearTimeout(timeoutId);
+    //     timeoutId = setTimeout(function() {
+    //         // Runs 1 second (1000 ms) after the last change
+    //         // saveToDB();
+    //     }, 1000);
+    // });
+</script>
 </body>
 </html>
