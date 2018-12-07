@@ -18,6 +18,34 @@ if(isset($obj->student_account[0])){
     echo $sql;
     $objQuery = mysqli_query($objCon, $sql);
 
+    $sql = "INSERT INTO `student_contact_details`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    $sql = "INSERT INTO `student_emergency_contact`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    $sql = "INSERT INTO `student_motivation_letter`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    $sql = "INSERT INTO `student_academic_qualification`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    $sql = "INSERT INTO `student_english_qualification`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    $sql = "INSERT INTO `student_gmat_details`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    $sql = "INSERT INTO `student_gre_details`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    $sql = "INSERT INTO `student_professional_experience`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
+
+    $sql = "INSERT INTO `student_refree`(`student_account_id`) VALUES ('".$last_id."')";
+    $objQuery = mysqli_query($objCon, $sql);
+
 }
 
 if(isset($obj->student_personal_details[0])){
@@ -59,6 +87,15 @@ if(isset($obj->student_emergency_contact[0])){
 
 }
 
+if(isset($obj->student_motivation_letter[0])){
+
+    $sql = "UPDATE `student_motivation_letter` SET `detail`= '".$obj->student_motivation_letter[0]->detail."' 
+    WHERE `student_account_id` = '".$obj->student_motivation_letter[0]->student_account_id."'";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    echo $sql;
+
+}
 
 //$sql = "SELECT * FROM `admin` WHERE `username` = '".$username. "'";
 //$objQuery = mysqli_query($objCon, $sql);
