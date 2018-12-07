@@ -1,4 +1,4 @@
-<fieldset>
+<fieldset id="student_academic_qualification">
 
     <div class="input-container">
         <div class="row">
@@ -6,7 +6,7 @@
                 Institution / School / College
             </div>
             <div class="col-lg-8">
-                <input class="text" type="text" name="firstname" required="">
+                <input class="text" type="text" id="institution" name="institution" required="">
             </div>
         </div>
 
@@ -18,7 +18,7 @@
                 City / Country
             </div>
             <div class="col-lg-8">
-                <input class="text" type="text" name="middlename" required="">
+                <input class="text" type="text" id="city" name="city" required="">
             </div>
         </div>
     </div>
@@ -30,9 +30,12 @@
             </div>
             <div class="col-lg-8">
                 <div class="col-lg-3">
-                    <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
-                        Bachelor’s
-                    </button>
+<!--                    <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">-->
+<!--                        Bachelor’s-->
+<!--                    </button>-->
+                    <input type="radio" id="qualification" name="qualification" value="Bachelor’s"> <b>Bachelor’s</b>
+                    <input type="radio" id="qualification" name="qualification" value="Master’s"> <b>Master’s</b>
+                    <input type="radio" id="qualification" name="qualification" value="Doctoral"> <b>Doctoral</b>
                 </div>
             </div>
 
@@ -45,7 +48,7 @@
                 Subject
             </div>
             <div class="col-lg-8">
-                <input class="text" type="text" name="familyname" required="">
+                <input class="text" type="text" id="subject" name="subject" required="">
             </div>
         </div>
     </div>
@@ -56,7 +59,7 @@
                 Thesis Title ( if applicable )
             </div>
             <div class="col-lg-8">
-                <input class="text" type="text" name="familyname" required="">
+                <input class="text" type="text" id="thesis_title" name="thesis_title" required="">
             </div>
         </div>
     </div>
@@ -107,13 +110,13 @@
             </div>
             <div class="col-lg-8">
                 <div class="col-lg-4">
-                    <input class="text" type="text" name="conutryofbirth" required="">
+                    <input class="text" type="text" id="start_date" name="start_date" required="">
                 </div>
                 <div class="col-lg-4 text-box">
                     End Date<small style="font-style: italic">(Expected) </small>
                 </div>
                 <div class="col-lg-4">
-                    <input class="text" type="text" name="conutryofbirth" required="">
+                    <input class="text" type="text" id="end_date" name="end_date" required="">
                 </div>
 
             </div>
@@ -127,13 +130,13 @@
             </div>
             <div class="col-lg-8">
                 <div class="col-lg-4">
-                    <input class="text" type="text" name="conutryofbirth" required="">
+                    <input class="text" type="text" id="graduation_date" name="graduation_date" required="">
                 </div>
                 <div class="col-lg-4 text-box">
                     Official Duration
                 </div>
                 <div class="col-lg-4">
-                    <input class="text" type="text" name="conutryofbirth" placeholder="Year" required="">
+                    <input class="text" type="text" id="official_duration" name="official_duration" placeholder="Year" required="">
                 </div>
             </div>
         </div>
