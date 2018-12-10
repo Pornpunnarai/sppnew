@@ -293,450 +293,21 @@
                 <?php include 'student_motivation_letter.php'?>
                 <?php include 'student_academic_qualification.php'?>
                 <?php include 'student_english_qualification.php'?>
+                <?php include 'student_gmat_details.php'?>
+                <?php include 'student_gre_details.php'?>
+                <?php include 'student_professional_experience.php'?>
+                <?php include 'student_refree.php'?>
+                <?php include 'student_submission.php'?>
 
 
 
 
 
-                <fieldset>
 
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Date Completed
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Verbal
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Total score
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Analytical Wrtiting
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Integrated Reasoning
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 100%; margin-top: -25vh;">
-                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
-                            GMAT DETAILS
-                        </p>
-                    </div>
-
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                    <input type="button" name="next" class="next action-button" value="Next"/>
-
-                </fieldset>
-
-                <fieldset>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Date Completed
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Verbal
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Analytical Writing
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Quantitative
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -25vh;">
-                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
-                            GRE DETAILS
-                        </p>
-                    </div>
-
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                    <input type="button" name="next" class="next action-button" value="Next"/>
-
-                </fieldset>
-
-                <fieldset>
-
-                    <p>Experience: 1 </p>
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Employer/ Organization Name
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Location of work is based in
-                            </div>
-                            <div class="col-lg-3">
-                                <input class="text" type="text" name="familyname" required="">
-                            </div>
-                            <div class="col-lg-2 text-box">
-                                Job Title:
-                            </div>
-                            <div class="col-lg-3">
-                                <input class="text" type="text" name="familyname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Job Description
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Start Date
-                            </div>
-                            <div class="col-lg-3">
-                                <input class="text" type="text" name="familyname" required="">
-                            </div>
-                            <div class="col-lg-2 text-box">
-                                End Date<br><small style="font-style: italic; font-size: 11px; font-family: lato-light; color: white">(if applicable)</small>
-                            </div>
-                            <div class="col-lg-3">
-                                <input class="text" type="text" name="familyname" required="">
-                            </div>
-                            <div class="col-lg-3 col-md-offset-3">
-                                <button class="btn btn-primary" style="background-color: #121212bd;
-                                font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;margin-bottom: 10px;">
-                                    experience 1
-                                </button>
-
-                                <button class="btn btn-primary" style="color: #04B1DC;
-                                font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">
-                                    + Add experience 2
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 50%; margin-top: -20vh;">
-                        <small style="font-style: italic; font-size: 14px; font-family: lato-light; color: white">
-                            In this section you may list current and/or previous employments, internships, volunteer positions relevant to your application.</small>
-
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
-                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
-                            PROFESSIONAL EXPERIENCE</p>
-                    </div>
-
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-
-                    <p style="font-style: italic; font-size: 14px; font-family: lato-light; color: white;">
-                        Please attach a copy of your CV/resume (including publication list if applicable)
-                    </p>
-                    <input type="button" name="next" class="next action-button" value="Next"/>
-
-                </fieldset>
-
-                <fieldset>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-11">
-                                <p style="text-align: center">Referee 1 </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Title
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                First / Given Name
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Last / Family Name
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Position
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Institution / Company
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Email Address
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Country
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Telephone number
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 50%; margin-top: -20vh;">
-                        <small style="font-style: italic; font-size: 14px; font-family: lato-light; color: white">
-                            Please provide details of your reference(s). Two letters of recommendations have to be sent to us at
-                            to chirada.na@cmu.ac.th and cc: spp@cmu.ac.th
-                            separately by your referees.
-                        </small>
-                    </div>
-
-                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
-                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
-                            REFEREES
-                        </p>
-                    </div>
-
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                    <input type="button" name="next" class="next action-button" value="Next"/>
-
-                </fieldset>
-
-                <fieldset>
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Source of funding
-                            </div>
-                            <div class="col-lg-8" style="color: white">
-                                <div class="col-lg-4">
-                                    Individual Funding Resources
-                                </div>
-                                <div class="col-lg-2">
-                                    <input class="text" type="text" name="firstname" required="">
-                                </div>
-                                <div class="col-lg-1">
-                                    %
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-1 text-box">
-                            </div>
-                            <div class="col-lg-11">
-                                <div class="col-lg-8" style="color: white;">
-                                    Do you consider to apply for funding other than CMU Financial Aid
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="col-lg-4" id="title">
-                                        <a href="#" style="color: white;"><b>YES</b></a>
-                                    </div>
-                                    <div class="col-lg-1"></div>
-                                    <div class="col-lg-4" id="title">
-                                        <a href="#" style="color: white;"><b>NO</b></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                First / Given Name
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                Please provide details:
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                How did you hear about CMU School of Public Policy?
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="input-container">
-                        <div class="row">
-                            <div class="col-lg-3 text-box">
-                                What do you find most attractive about CMU?
-                            </div>
-                            <div class="col-lg-8">
-                                <input class="text" type="text" name="firstname" required="">
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="row" style="position: absolute;margin-left: -23vw;text-align: left;width: 10%; margin-top: -40vh;">
-                        <p style="font-size: 24px; color: white; font-family: lato-bold;writing-mode: vertical-rl;transform: rotate(180deg);">
-                            SUBMISSION
-                        </p>
-                    </div>
-
-                    <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                    <input type="submit" name="submit" class="submit action-button" value="Submit"/>
-
-                </fieldset>
 
             </form>
             <script>
@@ -1125,6 +696,7 @@
                     }
                 }
 
+
                 var english_qualification = obj.english_qualification.split(",");
 
                 var check_box = $('input:checkbox[name=english_qualification]');
@@ -1132,6 +704,7 @@
                     var title = "\""+english_qualification[i]+"\"";
                     check_box.filter("[value="+title+"]").prop('checked', true);
                 }
+
 
                 document.getElementById("score").value = obj.score;
                 document.getElementById("date_completed").value = obj.date_completed;
@@ -1177,6 +750,318 @@
                         type: 'POST',
                         url: 'check-add.php',
                         data: JSON.stringify(student_english_qualification),
+                        contentType: 'application/json',
+                        success: function(msg){
+                            console.log(msg);
+                        }
+
+                    });
+
+                }
+
+            </script>
+            <script>
+                <?php
+                include '../connect-mysql.php';
+                $sql = "SELECT * FROM `student_gmat_details` WHERE `student_account_id` = '1'";
+                $objQuery = mysqli_query($objCon, $sql);
+                $result = mysqli_fetch_array($objQuery, MYSQLI_ASSOC);
+                $json = json_encode($result);
+                ?>
+
+                var json = '<?=$json?>';
+                var obj = JSON.parse(json);
+
+                document.getElementById("date_completed_gmat").value = obj.date_completed;
+                document.getElementById("verbal_gmat").value = obj.verbal;
+                document.getElementById("total_score").value = obj.total_score;
+                document.getElementById("analytical_writing_gmat").value = obj.analytical_writing;
+                document.getElementById("integrated_reasoning").value = obj.integrated_reasoning;
+
+
+
+
+
+
+                document.getElementById("student_gmat_details").onchange = function() {student_gmat_details()};
+                function student_gmat_details() {
+
+                    var date_completed = document.getElementById("date_completed_gmat").value;
+                    var verbal = document.getElementById("verbal_gmat").value;
+                    var total_score = document.getElementById("total_score").value;
+                    var analytical_writing = document.getElementById("analytical_writing_gmat").value;
+                    var integrated_reasoning = document.getElementById("integrated_reasoning").value;
+
+                    var student_gmat_details = { "student_gmat_details": [
+                            {
+                                "student_account_id": obj.student_account_id,
+                                "date_completed": date_completed,
+                                "verbal": verbal,
+                                "total_score": total_score,
+                                "analytical_writing": analytical_writing,
+                                "integrated_reasoning": integrated_reasoning
+                            }
+                        ]};
+                    console.log(JSON.stringify(student_gmat_details));
+
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'check-add.php',
+                        data: JSON.stringify(student_gmat_details),
+                        contentType: 'application/json',
+                        success: function(msg){
+                            console.log(msg);
+                        }
+
+                    });
+
+                }
+
+            </script>
+            <script>
+                <?php
+                include '../connect-mysql.php';
+                $sql = "SELECT * FROM `student_gre_details` WHERE `student_account_id` = '1'";
+                $objQuery = mysqli_query($objCon, $sql);
+                $result = mysqli_fetch_array($objQuery, MYSQLI_ASSOC);
+                $json = json_encode($result);
+                ?>
+
+                var json = '<?=$json?>';
+                var obj = JSON.parse(json);
+
+                document.getElementById("date_completed_gre").value = obj.date_completed;
+                document.getElementById("verbal_gre").value = obj.verbal;
+                document.getElementById("analytical_writing_gre").value = obj.analytical_writing;
+                document.getElementById("quantitative").value = obj.quantitative;
+
+
+
+
+
+
+                document.getElementById("student_gre_details").onchange = function() {student_gre_details()};
+                function student_gre_details() {
+
+                    var date_completed = document.getElementById("date_completed_gre").value;
+                    var verbal = document.getElementById("verbal_gre").value;
+                    var analytical_writing = document.getElementById("analytical_writing_gre").value;
+                    var quantitative = document.getElementById("quantitative").value;
+
+                    var student_gre_details = { "student_gre_details": [
+                            {
+                                "student_account_id": obj.student_account_id,
+                                "date_completed": date_completed,
+                                "verbal": verbal,
+                                "analytical_writing": analytical_writing,
+                                "quantitative": quantitative
+                            }
+                        ]};
+                    console.log(JSON.stringify(student_gre_details));
+
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'check-add.php',
+                        data: JSON.stringify(student_gre_details),
+                        contentType: 'application/json',
+                        success: function(msg){
+                            console.log(msg);
+                        }
+
+                    });
+
+                }
+
+            </script>
+            <script>
+                <?php
+                include '../connect-mysql.php';
+                $sql = "SELECT * FROM `student_professional_experience` WHERE `student_account_id` = '1'";
+                $objQuery = mysqli_query($objCon, $sql);
+                $result = mysqli_fetch_array($objQuery, MYSQLI_ASSOC);
+                $json = json_encode($result);
+                ?>
+
+                var json = '<?=$json?>';
+                var obj = JSON.parse(json);
+
+                document.getElementById("organization_name").value = obj.organization_name;
+                document.getElementById("location").value = obj.location;
+                document.getElementById("job_title").value = obj.job_title;
+                document.getElementById("job_description").value = obj.job_description;
+                document.getElementById("start_date_ex").value = obj.start_date;
+                document.getElementById("end_date_ex").value = obj.end_date;
+
+
+
+
+
+
+                document.getElementById("student_professional_experience").onchange = function() {student_professional_experience()};
+                function student_professional_experience() {
+
+                    var organization_name = document.getElementById("organization_name").value;
+                    var location = document.getElementById("location").value;
+                    var job_title = document.getElementById("job_title").value;
+                    var job_description = document.getElementById("job_description").value;
+                    var start_date = document.getElementById("start_date_ex").value;
+                    var end_date = document.getElementById("end_date_ex").value;
+
+                    var student_professional_experience = { "student_professional_experience": [
+                            {
+                                "student_account_id": obj.student_account_id,
+                                "organization_name": organization_name,
+                                "location": location,
+                                "job_title": job_title,
+                                "job_description": job_description,
+                                "start_date": start_date,
+                                "end_date": end_date
+                            }
+                        ]};
+                    console.log(JSON.stringify(student_professional_experience));
+
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'check-add.php',
+                        data: JSON.stringify(student_professional_experience),
+                        contentType: 'application/json',
+                        success: function(msg){
+                            console.log(msg);
+                        }
+
+                    });
+
+                }
+
+            </script>
+            <script>
+                <?php
+                include '../connect-mysql.php';
+                $sql = "SELECT * FROM `student_refree` WHERE `student_account_id` = '1'";
+                $objQuery = mysqli_query($objCon, $sql);
+                $result = mysqli_fetch_array($objQuery, MYSQLI_ASSOC);
+                $json = json_encode($result);
+                ?>
+
+                var json = '<?=$json?>';
+                var obj = JSON.parse(json);
+
+                document.getElementById("referee_title").value = obj.title;
+                document.getElementById("referee_firstname").value = obj.first_name;
+                document.getElementById("referee_lastname").value = obj.last_name;
+                document.getElementById("referee_position").value = obj.position;
+                document.getElementById("referee_institution").value = obj.institution;
+                document.getElementById("referee_email").value = obj.email;
+                document.getElementById("referee_country").value = obj.country;
+                document.getElementById("referee_tel").value = obj.telephone_number;
+
+
+
+
+
+
+                document.getElementById("student_refree").onchange = function() {student_refree()};
+                function student_refree() {
+
+                    var title = document.getElementById("referee_title").value;
+                    var first_name = document.getElementById("referee_firstname").value;
+                    var last_name = document.getElementById("referee_lastname").value;
+                    var position = document.getElementById("referee_position").value;
+                    var institution = document.getElementById("referee_institution").value;
+                    var email = document.getElementById("referee_email").value;
+                    var country = document.getElementById("referee_country").value;
+                    var telephone_number = document.getElementById("referee_tel").value;
+
+                    var student_refree = { "student_refree": [
+                            {
+                                "student_account_id": obj.student_account_id,
+                                "title": title,
+                                "first_name": first_name,
+                                "last_name": last_name,
+                                "position": position,
+                                "institution": institution,
+                                "email": email,
+                                "country": country,
+                                "telephone_number": telephone_number
+                            }
+                        ]};
+                    console.log(JSON.stringify(student_refree));
+
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'check-add.php',
+                        data: JSON.stringify(student_refree),
+                        contentType: 'application/json',
+                        success: function(msg){
+                            console.log(msg);
+                        }
+
+                    });
+
+                }
+
+            </script>
+            <script>
+                <?php
+                include '../connect-mysql.php';
+                $sql = "SELECT * FROM `student_submission` WHERE `student_account_id` = '1'";
+                $objQuery = mysqli_query($objCon, $sql);
+                $result = mysqli_fetch_array($objQuery, MYSQLI_ASSOC);
+                $json = json_encode($result);
+                ?>
+
+                var json = '<?=$json?>';
+                var obj = JSON.parse(json);
+                if(obj.question!=null){
+                    var radios = $('input:radio[name=question_sub]');
+                    if(radios.is(':checked') === false) {
+                        var title = "\""+obj.question+"\"";
+                        radios.filter("[value="+title+"]").prop('checked', true);
+                    }
+                }
+
+
+                document.getElementById("individual_funding_resources").value = obj.individual_funding_resources;
+                document.getElementById("detail_1").value = obj.detail_1;
+                document.getElementById("detail_2").value = obj.detail_2;
+                document.getElementById("detail_3").value = obj.detail_3;
+
+
+
+
+
+
+
+                document.getElementById("student_submission").onchange = function() {student_submission()};
+                function student_submission() {
+
+                    var individual_funding_resources = document.getElementById("individual_funding_resources").value;
+                    var question =document.querySelector("input[name=question_sub]:checked").value;
+                    var detail_1 = document.getElementById("detail_1").value;
+                    var detail_2 = document.getElementById("detail_2").value;
+                    var detail_3 = document.getElementById("detail_3").value;
+
+                    var student_submission = { "student_submission": [
+                            {
+                                "student_account_id": obj.student_account_id,
+                                "individual_funding_resources": individual_funding_resources,
+                                "question": question,
+                                "detail_1": detail_1,
+                                "detail_2": detail_2,
+                                "detail_3": detail_3
+                            }
+                        ]};
+                    console.log(JSON.stringify(student_submission));
+
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'check-add.php',
+                        data: JSON.stringify(student_submission),
                         contentType: 'application/json',
                         success: function(msg){
                             console.log(msg);

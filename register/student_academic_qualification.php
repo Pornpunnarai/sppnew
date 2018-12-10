@@ -110,13 +110,13 @@
             </div>
             <div class="col-lg-8">
                 <div class="col-lg-4">
-                    <input class="text" type="text" id="start_date" name="start_date" required="">
+                    <input class="text" type="date" id="start_date" name="start_date" required="">
                 </div>
                 <div class="col-lg-4 text-box">
                     End Date<small style="font-style: italic">(Expected) </small>
                 </div>
                 <div class="col-lg-4">
-                    <input class="text" type="text" id="end_date" name="end_date" required="">
+                    <input class="text" type="date" id="end_date" name="end_date" required="">
                 </div>
 
             </div>
@@ -130,7 +130,7 @@
             </div>
             <div class="col-lg-8">
                 <div class="col-lg-4">
-                    <input class="text" type="text" id="graduation_date" name="graduation_date" required="">
+                    <input class="text" type="date" id="graduation_date" name="graduation_date" required="">
                 </div>
                 <div class="col-lg-4 text-box">
                     Official Duration

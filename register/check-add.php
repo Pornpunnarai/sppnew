@@ -124,7 +124,68 @@ if(isset($obj->student_english_qualification[0])){
 
 }
 
+if(isset($obj->student_gmat_details[0])){
+    $obj = $obj->student_gmat_details[0];
 
+    $sql = "UPDATE `student_gmat_details` SET `date_completed`= '".$obj->date_completed."',`verbal`= '".$obj->verbal."',
+    `total_score`= '".$obj->total_score."',`analytical_writing`= '".$obj->analytical_writing."',`integrated_reasoning`= '".$obj->integrated_reasoning."'
+    WHERE `student_account_id` = '".$obj->student_account_id."'";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    echo $sql;
+
+}
+
+if(isset($obj->student_gre_details[0])){
+    $obj = $obj->student_gre_details[0];
+
+    $sql = "UPDATE `student_gre_details` SET `date_completed`= '".$obj->date_completed."',`verbal`= '".$obj->verbal."',
+    `analytical_writing`= '".$obj->analytical_writing."',`quantitative`= '".$obj->quantitative."'
+    WHERE `student_account_id` = '".$obj->student_account_id."'";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    echo $sql;
+
+}
+
+if(isset($obj->student_professional_experience[0])){
+    $obj = $obj->student_professional_experience[0];
+
+    $sql = "UPDATE `student_professional_experience` SET `organization_name`= '".$obj->organization_name."',`location`= '".$obj->location."',
+    `job_title`= '".$obj->job_title."',`job_description`= '".$obj->job_description."',`start_date`= '".$obj->start_date."',
+    `end_date`= '".$obj->end_date."'
+    WHERE `student_account_id` = '".$obj->student_account_id."'";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    echo $sql;
+
+}
+
+if(isset($obj->student_refree[0])){
+    $obj = $obj->student_refree[0];
+
+    $sql = "UPDATE `student_refree` SET `title`= '".$obj->title."',`first_name`= '".$obj->first_name."',
+    `last_name`= '".$obj->last_name."',`position`= '".$obj->position."',`institution`= '".$obj->institution."',
+    `email`= '".$obj->email."', `country`= '".$obj->country."', `telephone_number`= '".$obj->telephone_number."'
+    WHERE `student_account_id` = '".$obj->student_account_id."'";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    echo $sql;
+
+}
+
+if(isset($obj->student_submission[0])){
+    $obj = $obj->student_submission[0];
+
+    $sql = "UPDATE `student_submission` SET `individual_funding_resources`= '".$obj->individual_funding_resources."',
+    `question`= '".$obj->question."',`detail_1`= '".$obj->detail_1."',`detail_2`= '".$obj->detail_2."',
+    `detail_3`= '".$obj->detail_3."'
+    WHERE `student_account_id` = '".$obj->student_account_id."'";
+    $objQuery = mysqli_query($objCon, $sql);
+
+    echo $sql;
+
+}
 
 //$sql = "SELECT * FROM `admin` WHERE `username` = '".$username. "'";
 //$objQuery = mysqli_query($objCon, $sql);
