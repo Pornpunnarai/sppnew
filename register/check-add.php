@@ -51,15 +51,26 @@ if(isset($obj->student_account[0])){
 
 if(isset($obj->student_personal_details[0])){
     $obj = $obj->student_personal_details[0];
-    $sql = "UPDATE `student_personal_details` SET `title`='".$obj->title."',`first_name`= '".$obj->firstname."',
-`middle_name`= '".$obj->middlename."',`last_name`= '".$obj->lastname."',
-`citizenship`='".$obj->citizenship."',`date_of_birth`='".$obj->dob."',
-`country_of_birth`='".$obj->conutryofbirth."',`city_of_birth`='".$obj->cityofbirth."',
-`citizenship`='".$obj->citizenship."',`county_of_permanent_residence`='".$obj->county_permanent."'
- WHERE `student_account_id`= '".$obj->student_account_id."'";
-    $objQuery = mysqli_query($objCon, $sql);
 
-    echo $sql;
+
+    if(isset($obj->passport)){
+$File = new File($obj->passport);
+var_dump($File);
+    }else{
+        echo "Sss";
+    }
+
+
+
+//    $sql = "UPDATE `student_personal_details` SET `title`='".$obj->title."',`first_name`= '".$obj->firstname."',
+//`middle_name`= '".$obj->middlename."',`last_name`= '".$obj->lastname."',
+//`citizenship`='".$obj->citizenship."',`date_of_birth`='".$obj->dob."',
+//`country_of_birth`='".$obj->conutryofbirth."',`city_of_birth`='".$obj->cityofbirth."',
+//`citizenship`='".$obj->citizenship."',`county_of_permanent_residence`='".$obj->county_permanent."'
+// WHERE `student_account_id`= '".$obj->student_account_id."'";
+//    $objQuery = mysqli_query($objCon, $sql);
+//
+//    echo $sql;
 
 }
 

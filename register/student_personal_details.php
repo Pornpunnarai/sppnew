@@ -118,8 +118,9 @@
     </div>
 
     <div class="row" style="position: absolute;margin-left: 40vw;text-align: left;width: 100%; margin-top: -30vh;">
-        <p style="font-family: lato-bold; font-size: 24px;color: white;">Photocory of<br>Thai National or Passport<br>
-            <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">+Add file</button>
+        <p style="font-family: lato-bold; font-size: 24px;color: white;">Photocopy of<br>Thai National or Passport<br>
+<!--            <button class="btn btn-primary" style="color: #04B1DC; font-size: 13px;font-family: lato-regular;color: white;border-radius: 25px;">+Add file</button>-->
+<input type="file" id="passport" name="passport" required="">
             <small style="font-style: italic; font-size: 11px; font-family: lato-light;">Please insert file format PDF, MS Word Doc, JPEG, PNG. Limits file size : 20 MB</small>
         </p>
     </div>

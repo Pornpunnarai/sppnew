@@ -270,7 +270,7 @@
                 <p style="text-align: center; padding-top: 5rem;"><img src="../img/logo.png" width="20%"></p><br>
                 <p style="font-family: lato-bold; font-size: 24px; color: white;text-align: center;">Application form for Master of Arts in Public Policy degree program</p>
             </div>
-            <form id="msform">
+            <form enctype="multipart/form-data" id="msform">
                 <!-- progressbar -->
                 <ul id="progressbar">
                     <li class="active">Personal Details</li>
@@ -311,6 +311,7 @@
 
             </form>
             <script>
+
                 <?php
                 include '../connect-mysql.php';
                 $sql = "SELECT * FROM `student_personal_details` WHERE `student_account_id` = '1'";
@@ -346,6 +347,27 @@
                 document.getElementById("student_personal_details").onchange = function() {student_personal_details()};
                 function student_personal_details() {
 
+
+                    var passport = document.getElementById('passport').value;
+console.log(passport);
+                    // var file_data = $('#passport').prop('files')[0];
+                    // var form_data = new FormData();
+                    // form_data.append('file', file_data);
+                    // alert(form_data);
+                    // $.ajax({
+                    //     url: 'upload.php', // point to server-side PHP script
+                    //     dataType: 'text',  // what to expect back from the PHP script, if anything
+                    //     cache: false,
+                    //     contentType: false,
+                    //     processData: false,
+                    //     data: form_data,
+                    //     type: 'post',
+                    //     success: function(php_script_response){
+                    //         alert(php_script_response); // display response from the PHP script, if any
+                    //     }
+                    // });
+
+
                         var title =document.querySelector("input[name=title_name]:checked").value;
                         var firstname = document.getElementById("firstname").value;
                         var middlename = document.getElementById("middlename").value;
@@ -368,9 +390,11 @@
                                     "conutryofbirth": conutryofbirth,
                                     "cityofbirth": cityofbirth,
                                     "citizenship": citizenship,
-                                    "county_permanent": county_permanent}
+                                    "county_permanent": county_permanent,
+                                    "passport":passport}
                             ]};
-                        console.log(JSON.stringify(student_personal_details));
+                        console.log(student_personal_details);
+                        // console.log(JSON.stringify(student_personal_details));
 
 
                         $.ajax({
